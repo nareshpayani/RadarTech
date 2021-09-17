@@ -1,0 +1,68 @@
+[
+    {
+        "id": "1",
+        "imgUrl": "embedded.jpeg",
+        "authorImg": "user2.png",
+        "authorName": "John Doe",
+        "authorCourses": "13 Courses",
+        "price": "NA",
+        "courseTitle": "Embedded Course",
+        "courseDesc": "Embedded Systems Bare-Metal Programming, Professional CMSIS Standard, ARM Cortex, ADC,UART,TIMERS, DMA,SPI,I2C,RTC,GPIO etc.",
+        "courseLink": "/course-details"
+    },
+    {
+        "id": "2",
+        "imgUrl": "cprogramming.jpeg",
+        "authorImg": "user2.png",
+        "authorName": "Jara Sen",
+        "authorCourses": "21 Courses",
+        "price": "$13",
+        "courseTitle": "C Programming",
+        "courseDesc": "Become a True Master of the C Programming Language - Confidently Apply for Real Time or Embedded C Jobs or contracts!",
+        "courseLink": "/course-details"
+    },
+    {
+        "id": "3",
+        "imgUrl": "digital.jpeg",
+        "authorImg": "user2.png",
+        "authorName": "Kim Chang",
+        "authorCourses": "26 Courses",
+        "price": "$19",
+        "courseTitle": "Digital Marketing Course",
+        "courseDesc": "Learn the Essentials of Digital Marketing in 3 Hours to Grow Your Business or Career Quickly. No Experience Required!.",
+        "courseLink": "/course-details"
+    },
+    {
+        "id": "4",
+        "imgUrl": "pythone.jpeg",
+        "authorImg": "user2.png",
+        "authorName": "Jim Hunt",
+        "authorCourses": "09 Courses",
+        "price": "$15",
+        "courseTitle": "Zero to Hero in Python 3",
+        "courseDesc": "Learn Python Programming the Easy Way, Complete with Examples, Quizzes, Exercises and more. Learn Python 2 and Python 3.",
+        "courseLink": "/course-details"
+    },
+    {
+        "id": "5",
+        "imgUrl": "datastructure.jpeg",
+        "authorImg": "user2.png",
+        "authorName": "Sara Kim",
+        "authorCourses": "17 Courses",
+        "price": "$21",
+        "courseTitle": "Data Structures",
+        "courseDesc": "Ace your next Javascript coding interview by mastering data structures and algorithms.",
+        "courseLink": "/course-details"
+    },
+    {
+        "id": "6",
+        "imgUrl": "api.jpeg",
+        "authorImg": "user2.png",
+        "authorName": "Shon Doe",
+        "authorCourses": "31 Courses",
+        "price": "$24",
+        "courseTitle": "Laravel API Development",
+        "courseDesc": "REST based microservices API development in Golang.",
+        "courseLink": "/course-details"
+    }
+]

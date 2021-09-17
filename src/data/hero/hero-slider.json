@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "backgroundImage": "main-2.jpg",
+        "uniqClass": "slider-box slider-box1",
+        "title": "Welcome To Radar Technologies.",
+        "desc": "India’s No. 1 Embedded Systems Training Institute.",
+        "btnOneLink": "course-grid",
+        "btnTwoLink": "contact"
+    },
+    {
+        "id": "2",
+        "backgroundImage": "main-1.jpg",
+        "uniqClass": "slider-box slider-box2 text-right",
+        "title": "WWelcome To Radar Technologies.",
+        "desc": "Join Placement Guaranteed Embedded & IoT Courses",
+        "btnOneLink": "course-grid",
+        "btnTwoLink": "contact"
+    }
+]
