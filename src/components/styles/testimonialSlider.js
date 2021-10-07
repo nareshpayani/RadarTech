@@ -77,7 +77,8 @@ export const Styles = styled.div`
                     margin-left: 30px;
 
                     img {
-                        max-width: 65px;
+                        width: 65px;
+                        height: 65px;
                         border-radius : 50%;
                         float       : left;
                         margin-right: 15px;
@@ -115,6 +116,26 @@ export const Styles = styled.div`
             }
         }
 
+        a.readmore-btn {
+            font-size : 14px;
+            color     : #fff;
+            background: ${colors.gr_bg};
+            display   : inline-block;
+            width     : 145px;
+            height    : 40px;
+            text-align: center;
+            padding   : 11px;
+            border-radius : 5px;
+            margin-top: 40px;
+
+            &:hover {
+                background: ${colors.gr_bg2};
+            }
+
+            @media(max-width: 575px) {
+                margin-top : 0;
+            }
+        }
         @media(max-width: 767px) {
             padding: 30px 0;
         }

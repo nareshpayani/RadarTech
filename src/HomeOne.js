@@ -6,7 +6,7 @@ import AboutUs from './components/AboutUs';
 import CourseFilter from './components/CourseFilter';
 import TestimonialSlider from './components/TestimonialSlider';
 // import FaqEvent from './components/FaqEvent';
-import TeamSlider from './components/TeamSlider';
+// import TeamSlider from './components/TeamSlider';
 // import HelpArea from './components/HelpArea';
 // import HomeBlog from './components/HomeBlog';
 import CampusTour from './components/CampusTour';
@@ -40,7 +40,7 @@ export default class HomeOne extends Component {
                 {/* < FaqEvent /> */}
 
                 {/* Team Slider */}
-                < TeamSlider />
+                {/* < TeamSlider /> */}
 
                 {/* Help Area */}
                 {/* < HelpArea /> */}

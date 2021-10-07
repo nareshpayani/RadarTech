@@ -52,7 +52,7 @@ function FooterTwo() {
                         <Col md="4">
                             <div className="footer-logo-info">
                                 <img src={process.env.PUBLIC_URL + "/assets/images/logofinal.png"} alt="" className="img-fluid" />
-                                <p>Drive Technology by creating a platform to constantly drive technology education to make life easier, leading to a technology aware country.</p>
+                                <p>Radar became a Private Limited Company in 2019 as 'Radar Technical Center India Private Limited' for the dedicated services from the decad</p>
                                 <ul className="list-unstyled">
                                     <li><i className="las la-map-marker"></i>Marathalli, Banglore 560037.</li>
                                     <li><i className="las la-envelope"></i>info@radar-tech.in</li>

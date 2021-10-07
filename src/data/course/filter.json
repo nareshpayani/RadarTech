@@ -3,14 +3,14 @@
     "dataList": [
         {
             "id": "1",
-            "targetId": "desi",
-            "imgUrl": "pythone.jpeg",
+            "targetId": "cprogramming",
+            "imgUrl": "C_Programming.jpeg",
             "authorImg": "author.jpg",
-            "authorName": "John Doe",
+            "authorName": "",
             "authorCourses": "13 Courses",
-            "price": "$20",
-            "courseTitle": "Php & mySql Programming",
-            "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
+            "price": "",
+            "courseTitle": "C Programming",
+            "courseDesc": "C Programming will increase career options. Become a better dev in other languages by learning C.",
             "courseLink": "/course-details"
         },
         {
@@ -22,24 +22,24 @@
             "authorCourses": "17 Courses",
             "price": "$21",
             "courseTitle": "Data Structures",
-            "courseDesc": "Ace your next Javascript coding interview by mastering data structures and algorithms.",
+            "courseDesc": "Ace your next Javascript coding interview by mastering data structures and algorithms in javascript.",
             "courseLink": "/course-details"
         },
         {
             "id": "3",
-            "targetId": "seo",
-            "imgUrl": "digital.jpeg",
+            "targetId": "micro",
+            "imgUrl": "micro.jpeg",
             "authorImg": "user2.png",
             "authorName": "Kim Chang",
             "authorCourses": "26 Courses",
             "price": "$19",
-            "courseTitle": "Digital Marketing Course",
-            "courseDesc": "Learn the Essentials of Digital Marketing in 3 Hours to Grow Your Business or Career Quickly. No Experience Required!.",
+            "courseTitle": "Micro Controllers",
+            "courseDesc": "Learn 8051 micro-controller programming in detail using Embedded C and assembly language.",
             "courseLink": "/course-details"
         },
         {
             "id": "4",
-            "targetId": "prog",
+            "targetId": "python",
             "imgUrl": "pythone.jpeg",
             "authorImg": "user2.png",
             "authorName": "Jim Hunt",
@@ -58,19 +58,68 @@
             "authorCourses": "13 Courses",
             "price": "NA",
             "courseTitle": "Embedded Course",
-            "courseDesc": "Embedded Systems Bare-Metal Programming, Professional CMSIS Standard, ARM Cortex, ADC,UART,TIMERS, DMA,SPI,I2C,RTC,GPIO etc.",
+            "courseDesc": "Embedded Systems Bare-Metal Programming, Professional CMSIS Standard, ARM Cortex, ADC,UART,TIMERS, DMA,SPI,I2C,RTC,GPIO.",
             "courseLink": "/course-details"
         },
         {
             "id": "6",
             "targetId": "deve",
-            "imgUrl": "api.jpeg",
+            "imgUrl": "ope.jpeg",
             "authorImg": "user2.png",
             "authorName": "Shon Doe",
             "authorCourses": "31 Courses",
             "price": "$24",
-            "courseTitle": "Laravel API Development",
-            "courseDesc": "REST based microservices API development in Golang.",
+            "courseTitle": "Operating System",
+            "courseDesc": "An Operating System is the most important software that runs on a computer. It manages the computer’s memory and process",
+            "courseLink": "/course-details"
+        },
+
+        {
+            "id": "7",
+            "targetId": "prog",
+            "imgUrl": "net.jpeg",
+            "authorImg": "user2.png",
+            "authorName": "Jim Hunt",
+            "authorCourses": "09 Courses",
+            "price": "$15",
+            "courseTitle": "Networking",
+            "courseDesc": "The Complete Networking Fundamentals Course.start Learn about networking and start your journey to Cisco 200-301 Certification.",
+            "courseLink": "/course-details"
+        },
+        {
+            "id": "8",
+            "targetId": "deve",
+            "imgUrl": "linux.jpeg",
+            "authorImg": "user2.png",
+            "authorName": "Shon Doe",
+            "authorCourses": "31 Courses",
+            "price": "$24",
+            "courseTitle": "Linux Device Drivers",
+            "courseDesc": "Linux Device Drivers - Communicating with Hardware Linux Kernel Programming for IO Mapped and Memory Mapped devices",
+            "courseLink": "/course-details"
+        },
+        {
+            "id": "9",
+            "targetId": "cprogramming",
+            "imgUrl": "c++.jpeg",
+            "authorImg": "user2.png",
+            "authorName": "Shon Doe",
+            "authorCourses": "31 Courses",
+            "price": "$24",
+            "courseTitle": "C++ Programming",
+            "courseDesc": "C++ Programming from A-Z. Learn To Code Using C++. Learn C++ programming from scratch.",
+            "courseLink": "/course-details"
+        },
+        {
+            "id": "10",
+            "targetId": "hardware",
+            "imgUrl": "hard.jpeg",
+            "authorImg": "user2.png",
+            "authorName": "Shon Doe",
+            "authorCourses": "31 Courses",
+            "price": "$24",
+            "courseTitle": "Hardware",
+            "courseDesc": "computer hardware Troubleshooting -Computer basics - Computer motherboard - SMPS - System Memory -windows installation",
             "courseLink": "/course-details"
         }
     ]

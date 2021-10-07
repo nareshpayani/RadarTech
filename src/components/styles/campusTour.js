@@ -47,6 +47,27 @@ export const Styles = styled.div`
                 border-radius : 0;
             }
         }
+
+        a.readmore-btn {
+            font-size : 14px;
+            color     : #fff;
+            background: ${colors.gr_bg};
+            display   : inline-block;
+            width     : 145px;
+            height    : 40px;
+            text-align: center;
+            padding   : 11px;
+            border-radius : 5px;
+            margin-top: 40px;
+
+            &:hover {
+                background: ${colors.gr_bg2};
+            }
+
+            @media(max-width: 575px) {
+                margin-top : 0;
+            }
+        }
         @media(max-width: 767px) {
             padding: 30px 0 25px;
         }

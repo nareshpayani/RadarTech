@@ -9,6 +9,7 @@ export const Styles = styled.div`
                 overflow: hidden;
                 margin-bottom: 30px;
                 position: relative;
+                border: 1px solid gray;
                 img {
                     transition : all 0.3s ease;
                     &:hover {

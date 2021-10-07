@@ -43,7 +43,7 @@ class AboutUs extends Component {
                                     <Row>
                                         <Col sm="4">
                                             <div className="counter-box box1 text-center">
-                                                <h3><CountUp end={170} duration={5} delay={1.5} /><i className="las la-plus"></i></h3>
+                                                <h3><CountUp end={250} duration={5} delay={1.5} /><i className="las la-plus"></i></h3>
                                                 <p>Happy Students</p>
                                             </div>
                                         </Col>

@@ -11,6 +11,7 @@ export const Styles = styled.div`
                     a {
                         img {
                             border-radius : 5px;
+                            border: 1px solid black;
                         }
                     }
 
@@ -26,18 +27,18 @@ export const Styles = styled.div`
                         background: #ffffff;
                         border-radius : 5px;
                         position: absolute;
-                        top     : 22px;
-                        left    : -9%;
+                        top     : 10px;
+                        left    : -5%;
                         z-index : 1;
                         .event-title{
-                            h6 {
+                            h5 {
                                 margin-bottom: 10px;
                                 a {
                                     color      : ${colors.black1};
                                     font-weight: 600;
 
                                     &:hover {
-                                        color: ${colors.green};
+                                        color: ${colors.dark_blue};
                                     }
                                 }
                             }
@@ -47,11 +48,12 @@ export const Styles = styled.div`
                             margin-bottom : 10px;
                             ul {
                                 li {
-                                    font-size : 13px;
-                                    color: ${colors.text3};
+                                    font-size : 16px;
+                                    color: ${colors.blue};
+                                    font-weight: 400;
                                     i {
                                         font-size : 18px;
-                                        color: ${colors.green};
+                                        color: ${colors.text1};
                                         vertical-align: top;
                                     }
                                     &:first-child {
@@ -75,13 +77,14 @@ export const Styles = styled.div`
 
                         .event-date {
                             position: relative;
+                            margin-top: 30px;
                             margin-bottom : 20px;
                             padding-top: 6px;
                             &:before {
                                 position : absolute;
                                 content : '';
                                 background : ${colors.border1};
-                                width : 1px;
+                                width : 1.5px;
                                 height : 100px;
                                 top : 0;
                                 left : -30px;
@@ -92,9 +95,9 @@ export const Styles = styled.div`
                             }
                             p {
                                 font-size : 20px;
-                                color: ${colors.green};
+                                color: ${colors.blue};
                                 font-weight: 500;
-                                text-transform : uppercase;
+                                text-transform : capitalize;
 
                                 @media(max-width: 767px) {
                                     float: left;
@@ -121,7 +124,7 @@ export const Styles = styled.div`
                                 &:hover {
                                     color: #ffffff;
                                     background: ${colors.gr_bg};
-                                    border-color : ${colors.green};
+                                    border-color : ${colors.blue};
                                 }
 
                                 @media(max-width: 767px) {

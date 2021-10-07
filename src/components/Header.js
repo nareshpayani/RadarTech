@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
 import Search from './common/Search';
-import Sidebar from './common/Sidebar';
+// import Sidebar from './common/Sidebar';
 import StickyMenu from './common/StickyMenu';
 import MobileMenu from './common/MobileMenu';
 import { Styles } from "./styles/header.js";
@@ -124,6 +124,7 @@ class Header extends Component {
                                             </li>
 
                                             <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/gallery"}>Corporates</Link></li>
+                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/events"}>Placements</Link></li>
                                             {/* <li className="nav-item dropdown">
                                                 <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">Pages <i className="las la-angle-down"></i></Link>
                                                 <ul className="dropdown list-unstyled">
@@ -180,9 +181,9 @@ class Header extends Component {
                                                     <i className="las la-shopping-bag"></i>
                                                 </Link>
                                             </li> */}
-                                            <li className="nav-item side-box">
+                                            {/* <li className="nav-item side-box">
                                                 <Sidebar />
-                                            </li>
+                                            </li> */}
                                         </ul>
                                     </div>
                                 </div>

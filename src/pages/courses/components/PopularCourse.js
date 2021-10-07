@@ -17,7 +17,7 @@ class PopularCourse extends Component {
                                 <div className="item-box d-flex" key={i}>
                                     <div className="item-img">
                                  
-                                        <Link to={process.env.PUBLIC_URL + data.courseLink}> <img src={process.env.PUBLIC_URL + `/assets/images/${data.imgUrl}`} alt="" /></Link>
+                                        <Link to="#"> <img src={process.env.PUBLIC_URL + `/assets/images/${data.imgUrl}`} alt="" /></Link>
                                     </div>
                                     <div className="item-content">
                                         <p className="title">{data.courseTitle}</p>

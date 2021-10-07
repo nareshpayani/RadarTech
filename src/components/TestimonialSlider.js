@@ -3,6 +3,7 @@ import Datas from '../data/testimonial/testimonial-slider.json';
 import { Container, Row, Col } from 'react-bootstrap';
 import Swiper from 'react-id-swiper';
 import { Styles } from "./styles/testimonialSlider.js";
+import { Link } from 'react-router-dom';
 
 class TestimonialSlider extends Component {
     render() {
@@ -59,7 +60,8 @@ class TestimonialSlider extends Component {
                                                 <div className="writer">
                                                     <img src={process.env.PUBLIC_URL + `/assets/images/${data.authorImg}`} className="slider-image" alt={data.authorImg} />
                                                     <h6>{data.authorName}</h6>
-                                                    <p>{data.authorTitle}</p>
+                                                    <p>{data.companyName}</p>
+                                                    <p>{data.salary}</p>
                                                 </div>
                                             </div>
                                         ))
@@ -67,6 +69,11 @@ class TestimonialSlider extends Component {
                                 </Swiper>
                             </Col>
                         </Row>
+                        <Col md="12" className="text-center">
+                            <div className="viewall-btn">
+                            <Link className="readmore-btn" to={process.env.PUBLIC_URL + "/events"}>More</Link>
+                            </div>
+                        </Col>
                     </Container>
                 </section>
             </Styles>

@@ -50,9 +50,10 @@ function CourseFilter() {
                                 <ul className="filter-btn-list list-unstyled list inline">
                                     <li data-target="*" className="active list-inline-item">All Courses</li>
                                     <li data-target="emb" className="list-inline-item">Embedded Course</li>
-                                    <li data-target="deve" className="list-inline-item">Web Development</li>
-                                    <li data-target="seo" className="list-inline-item">C Programming</li>
-                                    <li data-target="prog" className="list-inline-item">Python Programming</li>
+                                    <li data-target="hardware" className="list-inline-item">Hardware</li>
+                                    <li data-target="cprogramming" className="list-inline-item">C Programming</li>
+                                    <li data-target="python" className="list-inline-item">Python Programming</li>
+                                    <li data-target="micro" className="list-inline-item">Micro Controllers</li>
                                 </ul>
                             </div>
                             <Row className="filter-items">
@@ -60,7 +61,7 @@ function CourseFilter() {
                                     Datas.dataList.map((data, i) => (
                                         <Col lg="4" md="6" key={i} data-id={data.targetId}>
                                             <div className="course-item">
-                                                <Link to={process.env.PUBLIC_URL + data.courseLink}>
+                                                
                                                     <div className="course-image" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/${data.imgUrl})`}}>
                                                         {/* <div className="author-img d-flex">
                                                             <div className="img">
@@ -75,9 +76,10 @@ function CourseFilter() {
                                                             <p>{data.price}</p>
                                                         </div> */}
                                                     </div>
-                                                </Link>
+                                           
                                                 <div className="course-content">
-                                                    <h6 className="heading"><Link to={process.env.PUBLIC_URL + data.courseLink}>{data.courseTitle}</Link></h6>
+                                                    {/* <Link to={process.env.PUBLIC_URL + data.courseLink}></Link> */}
+                                                    <h6 className="heading">{data.courseTitle}</h6>
                                                     <p className="desc">{data.courseDesc}</p>
                                                     <div className="course-face d-flex justify-content-between">
                                                         <div className="duration">

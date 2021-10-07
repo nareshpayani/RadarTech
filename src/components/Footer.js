@@ -16,7 +16,7 @@ class Footer extends Component {
                             <Col md="6">
                                 <div className="footer-logo-info">
                                     <img src={process.env.PUBLIC_URL + "/assets/images/logofinal.png"} alt="" className="img-fluid" />
-                                    <p>Lorem ipsum dolor sit amet, consectet adipisicing elit. Saepe porro neque a nam null quos.  Adipisci eius unde magnam ad, nisi voluptates.</p>
+                                    <p>Radar became a Private Limited Company in 2019 as 'Radar Technical Center India Private Limited' for the dedicated services from the decad.</p>
                                     <ul className="list-unstyled">
                                         <li><i className="las la-map-marker"></i>Marathalli, Banglore 560037.</li>
                                         <li><i className="las la-envelope"></i>info@radar-tech.in</li>

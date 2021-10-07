@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ModalImage from "react-modal-image";
 import { Styles } from "./styles/campusTour.js";
+import { Link } from 'react-router-dom';
 
 class CampusTour extends Component {
     state = {
@@ -32,22 +33,22 @@ class CampusTour extends Component {
                                 <Row>
                                     <Col lg="3" md="3">
                                         <div className="tour-box">
-                                            <ModalImage small={process.env.PUBLIC_URL + "/assets/images/c3.png"} large={process.env.PUBLIC_URL + "/assets/images/c3.png"} alt="" />
+                                            <ModalImage small={process.env.PUBLIC_URL + "/assets/images/mnc/ibm.png"} large={process.env.PUBLIC_URL + "/assets/images/mnc/ibm.png"} alt="" />
                                         </div>
                                     </Col>
                                     <Col lg="3" md="3">
                                         <div className="tour-box">
-                                            <ModalImage small={process.env.PUBLIC_URL + "/assets/images/c4.png"} large={process.env.PUBLIC_URL + "/assets/images/c4.png"} alt="" />
+                                            <ModalImage small={process.env.PUBLIC_URL + "/assets/images/mnc/bosh.png"} large={process.env.PUBLIC_URL + "/assets/images/mnc/bosh.png"} alt="" />
                                         </div>
                                     </Col>
                                     <Col lg="3" md="3">
                                         <div className="tour-box">
-                                            <ModalImage small={process.env.PUBLIC_URL + "/assets/images/c5.png"} large={process.env.PUBLIC_URL + "/assets/images/c5.png"} alt="" />
+                                            <ModalImage small={process.env.PUBLIC_URL + "/assets/images/mnc/htc.png"} large={process.env.PUBLIC_URL + "/assets/images/mnc/htc.png"} alt="" />
                                         </div>
                                     </Col>
                                     <Col lg="3" md="3">
                                         <div className="tour-box">
-                                            <ModalImage small={process.env.PUBLIC_URL + "/assets/images/c6.png"} large={process.env.PUBLIC_URL + "/assets/images/c6.png"} alt="" />
+                                            <ModalImage small={process.env.PUBLIC_URL + "/assets/images/mnc/brig.png"} large={process.env.PUBLIC_URL + "/assets/images/mnc/brig.png"} alt="" />
                                         </div>
                                     </Col>
                                 </Row>
@@ -56,22 +57,22 @@ class CampusTour extends Component {
                                 <Row>
                                     <Col lg="3" md="3">
                                         <div className="tour-box">
-                                            <ModalImage small={process.env.PUBLIC_URL + "/assets/images/c3.png"} large={process.env.PUBLIC_URL + "/assets/images/c3.png"} alt="" />
+                                            <ModalImage small={process.env.PUBLIC_URL + "/assets/images/mnc/hcl.png"} large={process.env.PUBLIC_URL + "/assets/images/mnc/hcl.png"} alt="" />
                                         </div>
                                     </Col>
                                     <Col lg="3" md="3">
                                         <div className="tour-box">
-                                            <ModalImage small={process.env.PUBLIC_URL + "/assets/images/c4.png"} large={process.env.PUBLIC_URL + "/assets/images/c4.png"} alt="" />
+                                            <ModalImage small={process.env.PUBLIC_URL + "/assets/images/mnc/eldas.png"} large={process.env.PUBLIC_URL + "/assets/images/mnc/eldas.png"} alt="" />
                                         </div>
                                     </Col>
                                     <Col lg="3" md="3">
                                         <div className="tour-box">
-                                            <ModalImage small={process.env.PUBLIC_URL + "/assets/images/c5.png"} large={process.env.PUBLIC_URL + "/assets/images/c5.png"} alt="" />
+                                            <ModalImage small={process.env.PUBLIC_URL + "/assets/images/mnc/vit.png"} large={process.env.PUBLIC_URL + "/assets/images/mnc/vit.png"} alt="" />
                                         </div>
                                     </Col>
                                     <Col lg="3" md="3">
                                         <div className="tour-box">
-                                            <ModalImage small={process.env.PUBLIC_URL + "/assets/images/c6.png"} large={process.env.PUBLIC_URL + "/assets/images/c6.png"} alt="" />
+                                            <ModalImage small={process.env.PUBLIC_URL + "/assets/images/mnc/zilogic.png"} large={process.env.PUBLIC_URL + "/assets/images/mnc/zilogic.png"} alt="" />
                                         </div>
                                     </Col>
                                 </Row>
@@ -100,7 +101,14 @@ class CampusTour extends Component {
                                     </Col>
                                 </Row>
                             </Col> */}
+                        <Col md="12" className="text-center">
+                            <div className="viewall-btn">
+                            <Link className="readmore-btn" to={process.env.PUBLIC_URL + "/gallery"}>More</Link>
+                            </div>
+                        </Col>
+
                         </Row>
+                        
                     </Container>
                 </section>
             </Styles>

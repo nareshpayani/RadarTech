@@ -21,47 +21,47 @@ class Events extends Component {
                     <HeaderTwo />
 
                     {/* Breadcroumb */}
-                    <BreadcrumbBox title="Events" />
+                    <BreadcrumbBox title="Placements" />
 
                     {/* Events Area */}
                     <section className="event-page-area">
                         <Container>
                             <Row>
-                                <Col lg="9" md="12">
+                                <Col lg="12" md="12">
                                     {
                                         Datas.map((data, i) => (
                                             <div className="event-box" key={i}>
                                                 <Row>
-                                                    <Col xl="3" lg="4" md="0">
+                                                    <Col xl="2" lg="3" md="0">
                                                         <div className="event-img">
-                                                            <Link to={process.env.PUBLIC_URL + data.eventLink}><img src={process.env.PUBLIC_URL + `/assets/images/${data.eventImg}`} alt="" className="img-fluid" /></Link>
+                                                            <Link to={process.env.PUBLIC_URL + data.eventLink}><img src={process.env.PUBLIC_URL + `/assets/images/${data.userImg}`} alt="" className="img-fluid" /></Link>
                                                         </div>
                                                     </Col>
-                                                    <Col xl="9" lg="8" md="12">
+                                                    <Col xl="10" lg="9" md="12">
                                                         <div className="event-content">
                                                             <div className="content-box">
                                                                 <Row>
-                                                                    <Col md="9">
+                                                                    <Col md="10">
                                                                         <div className="event-title">
-                                                                            <h6><Link to={process.env.PUBLIC_URL + data.eventLink}>{data.eventTitle}</Link></h6>
+                                                                            <h5><Link to={process.env.PUBLIC_URL + data.eventLink}>{data.companyName}</Link></h5>
                                                                         </div>
                                                                         <div className="event-time-location">
                                                                             <ul className="list-unstyled list-inline">
-                                                                                <li className="list-inline-item"><i className="las la-clock"></i> {data.eventTime}</li>
-                                                                                <li className="list-inline-item"><i className="las la-map-marker"></i> {data.eventLocation}</li>
+                                                                                <li className="list-inline-item"><i className="las la-user"></i> {data.userName}</li>
+                                                                                <li className="list-inline-item"><i className="las la-book"></i> {data.userEducation}</li>
                                                                             </ul>
                                                                         </div>
                                                                         <div className="event-desc">
-                                                                            <p>{data.eventdesc}</p>
+                                                                            <p>{data.userDesc}</p>
                                                                         </div>
                                                                     </Col>
-                                                                    <Col md="3" className="text-center">
+                                                                    <Col md="2" className="text-center">
                                                                         <div className="event-date">
-                                                                            <p>{data.eventDate}</p>
+                                                                            <p>{data.userSalary}</p>
                                                                         </div>
-                                                                        <div className="join-btn">
+                                                                        {/* <div className="join-btn">
                                                                             <Link to={process.env.PUBLIC_URL + data.eventLink}>Join Now</Link>
-                                                                        </div>
+                                                                        </div> */}
                                                                     </Col>
                                                                 </Row>
                                                             </div>
@@ -75,10 +75,6 @@ class Events extends Component {
                                     <Col md="12" className="text-center">
                                         <Pagination />
                                     </Col>
-                                </Col>
-
-                                <Col lg="3" md="0">
-                                    <CourseSidebar />
                                 </Col>
 
                             </Row>

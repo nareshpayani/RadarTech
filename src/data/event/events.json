@@ -1,72 +1,142 @@
 [
     {
         "id": "1",
-        "eventImg": "event-01.jpg",
-        "eventDate": "25 March",
-        "eventTitle": "Ratione omnis consequuntur placeae consol.",
-        "eventTime": "7:30pm",
-        "eventLocation": "795 South Park Avenue, CA 94107.",
-        "eventdesc": "Fugiat et aperiam similique, perferendis maiores tenetur voluptatem consequuntur harum unde illo alias mollitia a cumque.",
-        "eventLink": "/event-details"
+        "userImg": "profile/17.jpeg",
+        "userSalary": "5.5 Lacs Per Annum",
+        "companyName": "InTime Tec Vision.",
+        "userName": "N venkata sisindr ",
+        "userEducation": "B.Tec (ECE) - 2020.",
+        "userDesc": "I completed my embedded course at radar technologies. I am selected in Intime Tec Vision with 5.5 lakhs per annum.it is very good institute to learn embedded systems course. The way of teaching is very easy to understand and faculty are very friendly and take care of every student. They conducted mock interviews very useful to us and reduce the fear of to face the interviews. I'm really thanks to once again radar technologies.",
+        "eventLink": "/#"
     },
     {
         "id": "2",
-        "eventImg": "event-02.jpg",
-        "eventDate": "25 March",
-        "eventTitle": "Ratione omnis consequuntur placeae consol.",
-        "eventTime": "7:30pm",
-        "eventLocation": "795 South Park Avenue, CA 94107.",
-        "eventdesc": "Fugiat et aperiam similique, perferendis maiores tenetur voluptatem consequuntur harum unde illo alias mollitia a cumque.",
-        "eventLink": "/event-details"
+        "userImg": "profile/1.jpeg",
+        "userSalary": "5 Lacs Per Annum",
+        "companyName": "Libre Wireless Technologies.",
+        "userName": "B. Pragathi ",
+        "userEducation": " B.Tec (ECE) - 2019.",
+        "userDesc": "I completed my Embedded course at Radar Technologies. That is all because of Radar team. They show so much dedication on placements. For the sake of giving better future for students who are really seeking for job I am strongly saying Radar is worthy. Previously I took course from other institute. They are just money minded and they didn’t give proper chances and also wasted my time and money. But one fine day I heard about Radar and saw Radar team hard work. It’s fully dedicated. Mock interviews are playing a crucial role. They also conduct classes according to the students convenient time.",
+        "eventLink": "/#"
     },
     {
         "id": "3",
-        "eventImg": "event-03.jpg",
-        "eventDate": "25 March",
-        "eventTitle": "Ratione omnis consequuntur placeae consol.",
-        "eventTime": "7:30pm",
-        "eventLocation": "795 South Park Avenue, CA 94107.",
-        "eventdesc": "Fugiat et aperiam similique, perferendis maiores tenetur voluptatem consequuntur harum unde illo alias mollitia a cumque.",
-        "eventLink": "/event-details"
+        "userImg": "profile/dinesh.png",
+        "userSalary": "4 Lacs Per Annum",
+        "companyName": "Lekha Wireless Solutions Private Limited - Bangalore.",
+        "userName": "M Dinesh Babu ",
+        "userEducation": "B.Tec (EEE) - 2018.",
+        "userDesc": "I came to know about the Radar Technologies through my friend. I joined Radar with zero knowledge during June 2020. With the help of Suresh sir, I improved my programming skills and with weekly mock tests and interviews I improved and reduced fear of facing interviews. Most importantly trainers were friendly interaction.",
+        "eventLink": "/#"
     },
     {
         "id": "4",
-        "eventImg": "event-04.jpg",
-        "eventDate": "25 March",
-        "eventTitle": "Ratione omnis consequuntur placeae consol.",
-        "eventTime": "7:30pm",
-        "eventLocation": "795 South Park Avenue, CA 94107.",
-        "eventdesc": "Fugiat et aperiam similique, perferendis maiores tenetur voluptatem consequuntur harum unde illo alias mollitia a cumque.",
-        "eventLink": "/event-details"
+        "userImg": "profile/venkat.png",
+        "userSalary": "4 Lacs Per Annum",
+        "companyName": "Lekha  Wireless Solutions Private Limited.",
+        "userName": "B Venkata Krishna",
+        "userEducation": "B.Tec (ECE) - 2020.",
+        "userDesc": "I completed my embedded course at radar technologies. I am selected in Intime Tec Vision with 5.5 lakhs per annum.it is very good institute to learn embedded systems course. The way of teaching is very easy to understand and faculty are very friendly and take care of every student. They conducted mock interviews very useful to us and reduce the fear of to face the interviews. I'm really thanks to once again radar technologies.",
+        "eventLink": "/#"
     },
     {
         "id": "5",
-        "eventImg": "event-05.jpg",
-        "eventDate": "25 March",
-        "eventTitle": "Ratione omnis consequuntur placeae consol.",
-        "eventTime": "7:30pm",
-        "eventLocation": "795 South Park Avenue, CA 94107.",
-        "eventdesc": "Fugiat et aperiam similique, perferendis maiores tenetur voluptatem consequuntur harum unde illo alias mollitia a cumque.",
-        "eventLink": "/event-details"
+        "userImg": "profile/6.jpeg",
+        "userSalary": "4 Lacs Per Annum",
+        "companyName": "American Mega Trends - Chennai.",
+        "userName": "S Sameena  ",
+        "userEducation": "B.Tec (ECE).",
+        "userDesc": "I completed my Embedded Systems course at Radar Technologies. I got selected in American Megatrends (AMI), Chennai with a package of 4 Lacs per annum. It is very good institute to Embedded Systems course. They provide assurance for job. They conduct mock interviews which are very helpful to reduce our fear of facing interviews. The institute has good faculty. Especially Suresh sir, who teaches us and gives the confidence with his teaching, and explains everything in detail. I suggest you to join in this institute for better future.",
+        "eventLink": "/#"
     },
     {
         "id": "6",
-        "eventImg": "event-06.jpg",
-        "eventDate": "25 March",
-        "eventTitle": "Ratione omnis consequuntur placeae consol.",
-        "eventTime": "7:30pm",
-        "eventLocation": "795 South Park Avenue, CA 94107.",
-        "eventdesc": "Fugiat et aperiam similique, perferendis maiores tenetur voluptatem consequuntur harum unde illo alias mollitia a cumque.",
-        "eventLink": "/event-details"
+        "userImg": "profile/4.jpeg",
+        "userSalary": "3.2 Lacs Per Annum",
+        "companyName": "VVDN Technologies Private Limited.        ",
+        "userName": "M Renukadevi         ",
+        "userEducation": "B.Tec (EEE) - 2018.",
+        "userDesc": "Radar technologies is the best learning institute I have ever found. The way of teaching, the way of explaining the concepts, the way of response to doubts asked was really awesome. Radar will provide best guidelines to start our career. The way of training that they are providing was really amazing. Especially, the concept of mock interviews will really helping the students to know their flaws. I am really thankful to RADAR always. Special thanks to Suresh sir.",
+        "eventLink": "/#"
     },
     {
         "id": "7",
-        "eventImg": "event-07.jpg",
-        "eventDate": "25 March",
-        "eventTitle": "Ratione omnis consequuntur placeae consol.",
-        "eventTime": "7:30pm",
-        "eventLocation": "795 South Park Avenue, CA 94107.",
-        "eventdesc": "Fugiat et aperiam similique, perferendis maiores tenetur voluptatem consequuntur harum unde illo alias mollitia a cumque.",
-        "eventLink": "/event-details"
+        "userImg": "profile/10.jpeg",
+        "userSalary": "3 Lacs Per Annum",
+        "companyName": "HTC Global Services - Chennai.",
+        "userName": "P Chandrakanth ",
+        "userEducation": "B.Tec (ECE) - 2020.",
+        "userDesc": "I am the one who is confused on selecting good institute to reach our goal. Coming to Radar Technologies, publicity doesn’t matter, experienced ones are enough, even I didn’t see any advertisement about this. If your are willing to join this, congrats, you are almost done to reach your goal. They will teach you like a friend. They will be available for you always. They won’t leave you till you get a job. No institute will provide you placements like RADAR. No institute faculty will be friendly with you like Radar. Specially Suresh sir.        ",
+        "eventLink": "/#"
+    },
+    {
+        "id": "8",
+        "userImg": "profile/21.jpeg",
+        "userSalary": "3.5 Lacs Per Annum",
+        "companyName": "Brigosha Technologies - Bangalore.",
+        "userName": "B Siva Kumar        ",
+        "userEducation": "B.Tec (ECE) - 2020.",
+        "userDesc": "I Completed My Embedded System course at RADAR Technologies. I got selected in Brigosha Technologies with a package of 3.5 Lakhs Per Annum. It is a very good institute to learn Embedded System course. The way of teaching is very easy to understand and also they conduct mock interviews. It is very helpful for students. I improved my programming skills and reduced fear of facing interviews. so, faculty are very friendly and also special Thanks to Suresh sir and Srinivas sir helping me a lot.I really thankful to Radar Technologies.        ",
+        "eventLink": "/#"
+    },
+    {
+        "id": "9",
+        "userImg": "profile/20.jpeg",
+        "userSalary": "3.5 Lacs Per Annum",
+        "companyName": "HCL Technologies.",
+        "userName": "Sai Rajula",
+        "userEducation": " B.Tec (ECE) - 2020.",
+        "userDesc": " I was searching for best institute on embedded systems in that time. when I joined I don't have great knowledge on c, the way he teaching and explaining concepts and programs is just one word excellent . After completion of course they will conduct a mock interview by Srinivas sir which is very useful to crack the interviews. Trust me they will treat us like their own . I strongly recommend everyone if you are searching for best institute on embedded systems then come and join Radar technologies. They won't leave until you get placed.        ",
+        "eventLink": "/#"
+    },
+    {
+        "id": "10",
+        "userImg": "profile/19.jpeg",
+        "userSalary": "3.5 Lacs Per Annum",
+        "companyName": "Brigosha Technologies - Bangalore.",
+        "userName": "Bille Naveen        ",
+        "userEducation": "B.Tec (ECE) - 2020.",
+        "userDesc": "I joined in Embedded System course at RADAR Technologies. I joined the course with zero knowledge. Suresh sir teaching is very easy to understand. The mock interviews were conducted during the course. It is very helpful for students. I gained my skills and confidence to get succeed with the knowledge. I got placement in Brigosha. My parents felt very happy after I got job. Faculty are very friendly in Radar. They will respond at any time on our queries.  I thank one and all. Special thanks to Suresh sir and HR team.         ",
+        "eventLink": "/#"
+    },
+    {
+        "id": "11",
+        "userImg": "profile/15.jpeg",
+        "userSalary": "4.5 Lacs Per Annum",
+        "companyName": "Valeo India Pvt. Ltd. - Chennai.",
+        "userName": "K Yagna Sudharshan        ",
+        "userEducation": "B.Tec (ECE) - 2020.",
+        "userDesc": "I completed my embedded course at radar technologies. I am selected in Intime Tec Vision with 5.5 lakhs per annum.it is very good institute to learn embedded systems course. The way of teaching is very easy to understand and faculty are very friendly and take care of every student. They conducted mock interviews very useful to us and reduce the fear of to face the interviews. I'm really thanks to once again radar technologies.",
+        "eventLink": "/#"
+    },
+    {
+        "id": "12",
+        "userImg": "profile/9.jpeg",
+        "userSalary": "3.5 Lacs Per Annum",
+        "companyName": "Altran – Capgemini, Bangalore.",
+        "userName": "G Gopi        ",
+        "userEducation": "B.Tec (ECE) - 2020.",
+        "userDesc": "I came to know about the Radar Technologies through my friend. I joined here with zero knowledge on programming and core concepts. I improved my programming skills and core concepts during my course.  With the weekly mock interviews, I reduced the fear of facing the interviews. Finally I joined Altran within a short span of time. I am very happy that I am working with my passion. Really thankful to Suresh sir and Srini sir.        ",
+        "eventLink": "/#"
+    },
+    {
+        "id": "13",
+        "userImg": "profile/14.jpeg",
+        "userSalary": "4.5 Lacs Per Annum",
+        "companyName": "Lekha Wireless Solutions Private Limited, Bangalore.",
+        "userName": "S Jaahnavi        ",
+        "userEducation": "B.Tec (ECE) - 2020.",
+        "userDesc": "I was searching for the best institute on Embedded Systems. My friend who got placement through Radar Technologies, referred me to join here. When I joined, I don’t have much knowledge on C Programming.  The way of teaching and explaining the concepts from scratch helped me a lot to crack the interviews. Regular mock interviews  play a crucial role for cracking the interviews easily. I strongly recommend everyone to join this institute. I thank all the Radar team and I am proud to be Radar student.        ",
+        "eventLink": "/#"
+    },
+    {
+        "id": "14",
+        "userImg": "profile/11.jpeg",
+        "userSalary": "4.5 Lacs Per Annum",
+        "companyName": "IBM - Chennai.",
+        "userName": "P Nandini        ",
+        "userEducation": "B.Tec (ECE) - 2020.",
+        "userDesc": "I am polarapu nandini. I joined to the institute  called RADAR technologies. It is place where we can enhance our skills. Training was excellent with good interaction. Knowledge sharing is good. Recording facility is excellent for revising. Course was practically and informative. Suresh Sir is enthusiastic and really aware of what he is explaining. The course helped to build confidence, Valuable experiences and learning.        ",
+        "eventLink": "/#"
     }
 ]

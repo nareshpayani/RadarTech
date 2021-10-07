@@ -11,13 +11,13 @@
         "uniqClass": "box-icon box2",
         "boxIcon": "flaticon-thumbs-like",
         "title": "Corporates",
-        "subTitle": "We have worked with startups, mid-size organizations and large corporations."
+        "subTitle": "We have worked with MNC's, mid-size organizations and large corporations."
     },
     {
         "id": "3",
         "uniqClass": "box-icon box3",
         "boxIcon": "flaticon-teacher",
-        "title": "Qualified Teachers",
+        "title": "Qualified Trainers",
         "subTitle": "Our Teachers have solid functional and deep domain expertise that makes us unique in the IT industry."
     }
 ]
