@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "userImg": "profile/17.jpeg",
+        "userImg": "17.jpeg",
         "userSalary": "5.5 Lacs Per Annum",
         "companyName": "InTime Tec Vision.",
         "userName": "N venkata sisindr ",
@@ -11,7 +11,7 @@
     },
     {
         "id": "2",
-        "userImg": "profile/1.jpeg",
+        "userImg": "1.jpeg",
         "userSalary": "5 Lacs Per Annum",
         "companyName": "Libre Wireless Technologies.",
         "userName": "B. Pragathi ",
@@ -19,29 +19,10 @@
         "userDesc": "I completed my Embedded course at Radar Technologies. That is all because of Radar team. They show so much dedication on placements. For the sake of giving better future for students who are really seeking for job I am strongly saying Radar is worthy. Previously I took course from other institute. They are just money minded and they didn’t give proper chances and also wasted my time and money. But one fine day I heard about Radar and saw Radar team hard work. It’s fully dedicated. Mock interviews are playing a crucial role. They also conduct classes according to the students convenient time.",
         "eventLink": "/#"
     },
-    {
-        "id": "3",
-        "userImg": "profile/dinesh.png",
-        "userSalary": "4 Lacs Per Annum",
-        "companyName": "Lekha Wireless Solutions Private Limited - Bangalore.",
-        "userName": "M Dinesh Babu ",
-        "userEducation": "B.Tec (EEE) - 2018.",
-        "userDesc": "I came to know about the Radar Technologies through my friend. I joined Radar with zero knowledge during June 2020. With the help of Suresh sir, I improved my programming skills and with weekly mock tests and interviews I improved and reduced fear of facing interviews. Most importantly trainers were friendly interaction.",
-        "eventLink": "/#"
-    },
-    {
-        "id": "4",
-        "userImg": "profile/venkat.png",
-        "userSalary": "4 Lacs Per Annum",
-        "companyName": "Lekha  Wireless Solutions Private Limited.",
-        "userName": "B Venkata Krishna",
-        "userEducation": "B.Tec (ECE) - 2020.",
-        "userDesc": "I completed my embedded course at radar technologies. I am selected in Intime Tec Vision with 5.5 lakhs per annum.it is very good institute to learn embedded systems course. The way of teaching is very easy to understand and faculty are very friendly and take care of every student. They conducted mock interviews very useful to us and reduce the fear of to face the interviews. I'm really thanks to once again radar technologies.",
-        "eventLink": "/#"
-    },
+   
     {
         "id": "5",
-        "userImg": "profile/6.jpeg",
+        "userImg": "6.jpeg",
         "userSalary": "4 Lacs Per Annum",
         "companyName": "American Mega Trends - Chennai.",
         "userName": "S Sameena  ",
@@ -51,7 +32,7 @@
     },
     {
         "id": "6",
-        "userImg": "profile/4.jpeg",
+        "userImg": "4.jpeg",
         "userSalary": "3.2 Lacs Per Annum",
         "companyName": "VVDN Technologies Private Limited.        ",
         "userName": "M Renukadevi         ",
@@ -61,7 +42,7 @@
     },
     {
         "id": "7",
-        "userImg": "profile/10.jpeg",
+        "userImg": "10.jpeg",
         "userSalary": "3 Lacs Per Annum",
         "companyName": "HTC Global Services - Chennai.",
         "userName": "P Chandrakanth ",
@@ -71,7 +52,7 @@
     },
     {
         "id": "8",
-        "userImg": "profile/21.jpeg",
+        "userImg": "21.jpeg",
         "userSalary": "3.5 Lacs Per Annum",
         "companyName": "Brigosha Technologies - Bangalore.",
         "userName": "B Siva Kumar        ",
@@ -81,7 +62,7 @@
     },
     {
         "id": "9",
-        "userImg": "profile/20.jpeg",
+        "userImg": "20.jpeg",
         "userSalary": "3.5 Lacs Per Annum",
         "companyName": "HCL Technologies.",
         "userName": "Sai Rajula",
@@ -91,7 +72,7 @@
     },
     {
         "id": "10",
-        "userImg": "profile/19.jpeg",
+        "userImg": "19.jpeg",
         "userSalary": "3.5 Lacs Per Annum",
         "companyName": "Brigosha Technologies - Bangalore.",
         "userName": "Bille Naveen        ",
@@ -101,7 +82,7 @@
     },
     {
         "id": "11",
-        "userImg": "profile/15.jpeg",
+        "userImg": "15.jpeg",
         "userSalary": "4.5 Lacs Per Annum",
         "companyName": "Valeo India Pvt. Ltd. - Chennai.",
         "userName": "K Yagna Sudharshan        ",
@@ -111,7 +92,7 @@
     },
     {
         "id": "12",
-        "userImg": "profile/9.jpeg",
+        "userImg": "9.jpeg",
         "userSalary": "3.5 Lacs Per Annum",
         "companyName": "Altran – Capgemini, Bangalore.",
         "userName": "G Gopi        ",
@@ -121,7 +102,7 @@
     },
     {
         "id": "13",
-        "userImg": "profile/14.jpeg",
+        "userImg": "14.jpeg",
         "userSalary": "4.5 Lacs Per Annum",
         "companyName": "Lekha Wireless Solutions Private Limited, Bangalore.",
         "userName": "S Jaahnavi        ",
@@ -131,12 +112,32 @@
     },
     {
         "id": "14",
-        "userImg": "profile/11.jpeg",
+        "userImg": "11.jpeg",
         "userSalary": "4.5 Lacs Per Annum",
         "companyName": "IBM - Chennai.",
         "userName": "P Nandini        ",
         "userEducation": "B.Tec (ECE) - 2020.",
         "userDesc": "I am polarapu nandini. I joined to the institute  called RADAR technologies. It is place where we can enhance our skills. Training was excellent with good interaction. Knowledge sharing is good. Recording facility is excellent for revising. Course was practically and informative. Suresh Sir is enthusiastic and really aware of what he is explaining. The course helped to build confidence, Valuable experiences and learning.        ",
+        "eventLink": "/#"
+    },
+    {
+        "id": "3",
+        "userImg": "dinesh.png",
+        "userSalary": "4 Lacs Per Annum",
+        "companyName": "Lekha Wireless Solutions Private Limited - Bangalore.",
+        "userName": "M Dinesh Babu ",
+        "userEducation": "B.Tec (EEE) - 2018.",
+        "userDesc": "I came to know about the Radar Technologies through my friend. I joined Radar with zero knowledge during June 2020. With the help of Suresh sir, I improved my programming skills and with weekly mock tests and interviews I improved and reduced fear of facing interviews. Most importantly trainers were friendly interaction.",
+        "eventLink": "/#"
+    },
+    {
+        "id": "4",
+        "userImg": "venkat.png",
+        "userSalary": "4 Lacs Per Annum",
+        "companyName": "Lekha  Wireless Solutions Private Limited.",
+        "userName": "B Venkata Krishna",
+        "userEducation": "B.Tec (ECE) - 2020.",
+        "userDesc": "I completed my embedded course at radar technologies. I am selected in Intime Tec Vision with 5.5 lakhs per annum.it is very good institute to learn embedded systems course. The way of teaching is very easy to understand and faculty are very friendly and take care of every student. They conducted mock interviews very useful to us and reduce the fear of to face the interviews. I'm really thanks to once again radar technologies.",
         "eventLink": "/#"
     }
 ]

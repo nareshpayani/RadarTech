@@ -48,11 +48,11 @@ class HeaderTwo extends Component {
                                         <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-instagram"></i></a></li>
                                     </ul>
 
-                                    <ul className="list-unstyled list-inline sidebar-button">
+                                    {/* <ul className="list-unstyled list-inline sidebar-button">
                                         <li className="list-inline-item nav-item side-box">
                                             <Sidebar />
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                 </div>
                             </Col>
                         </Row>

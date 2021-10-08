@@ -11,7 +11,6 @@ class Pagination extends Component {
                     <li className="list-inline-item"><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-double-left"></i></Link></li>
                     <li className=" active list-inline-item"><Link to={process.env.PUBLIC_URL + "/"}>1</Link></li>
                     <li className="list-inline-item"><Link to={process.env.PUBLIC_URL + "/"}>2</Link></li>
-                    <li className="list-inline-item"><Link to={process.env.PUBLIC_URL + "/"}>3</Link></li>
                     {/* <li className="list-inline-item"><Link to={process.env.PUBLIC_URL + "/"}>...</Link></li> */}
                     {/* <li className="list-inline-item"><Link to={process.env.PUBLIC_URL + "/"}>5</Link></li> */}
                     <li className="list-inline-item"><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-double-right"></i></Link></li>

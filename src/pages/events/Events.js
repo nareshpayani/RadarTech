@@ -5,7 +5,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 import HeaderTwo from '../../components/HeaderTwo';
 import { BreadcrumbBox } from '../../components/common/Breadcrumb';
 import Pagination from '../../components/Pagination';
-import CourseSidebar from '../courses/components/CourseSidebar';
 import FooterTwo from '../../components/FooterTwo';
 import { Styles } from './styles/event.js';
 
@@ -34,7 +33,7 @@ class Events extends Component {
                                                 <Row>
                                                     <Col xl="2" lg="3" md="0">
                                                         <div className="event-img">
-                                                            <Link to={process.env.PUBLIC_URL + data.eventLink}><img src={process.env.PUBLIC_URL + `/assets/images/${data.userImg}`} alt="" className="img-fluid" /></Link>
+                                                            <Link><img src={process.env.PUBLIC_URL + `/assets/images/profile/${data.userImg}`} alt="user Profile" className="img-fluid" /></Link>
                                                         </div>
                                                     </Col>
                                                     <Col xl="10" lg="9" md="12">
@@ -43,7 +42,7 @@ class Events extends Component {
                                                                 <Row>
                                                                     <Col md="10">
                                                                         <div className="event-title">
-                                                                            <h5><Link to={process.env.PUBLIC_URL + data.eventLink}>{data.companyName}</Link></h5>
+                                                                            <h5><Link >{data.companyName}</Link></h5>
                                                                         </div>
                                                                         <div className="event-time-location">
                                                                             <ul className="list-unstyled list-inline">
