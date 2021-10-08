@@ -62,17 +62,17 @@ class CampusTour extends Component {
                                     </Col>
                                     <Col lg="3" md="3">
                                         <div className="tour-box">
-                                            <ModalImage small={process.env.PUBLIC_URL + "/assets/images/mnc/eldas.png"} large={process.env.PUBLIC_URL + "/assets/images/mnc/eldas.png"} alt="" />
+                                            <ModalImage small={process.env.PUBLIC_URL + "/assets/images/mnc/lekha.png"} large={process.env.PUBLIC_URL + "/assets/images/mnc/lekha.png"} alt="" />
                                         </div>
                                     </Col>
                                     <Col lg="3" md="3">
                                         <div className="tour-box">
-                                            <ModalImage small={process.env.PUBLIC_URL + "/assets/images/mnc/vit.png"} large={process.env.PUBLIC_URL + "/assets/images/mnc/vit.png"} alt="" />
+                                            <ModalImage small={process.env.PUBLIC_URL + "/assets/images/mnc/valeo.png"} large={process.env.PUBLIC_URL + "/assets/images/mnc/valeo.png"} alt="" />
                                         </div>
                                     </Col>
                                     <Col lg="3" md="3">
                                         <div className="tour-box">
-                                            <ModalImage small={process.env.PUBLIC_URL + "/assets/images/mnc/zilogic.png"} large={process.env.PUBLIC_URL + "/assets/images/mnc/zilogic.png"} alt="" />
+                                            <ModalImage small={process.env.PUBLIC_URL + "/assets/images/mnc/cyi.png"} large={process.env.PUBLIC_URL + "/assets/images/mnc/cyi.png"} alt="" />
                                         </div>
                                     </Col>
                                 </Row>

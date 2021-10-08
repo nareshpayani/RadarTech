@@ -50,7 +50,7 @@ class AboutUs extends Component {
                                         <Col sm="4">
                                             <div className="counter-box box2 text-center">
                                                 <h3><CountUp end={10} duration={5} delay={1.5} /><i className="las la-plus"></i></h3>
-                                                <p>Teachers</p>
+                                                <p>Trainers</p>
                                             </div>
                                         </Col>
                                         <Col sm="4">

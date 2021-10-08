@@ -27,7 +27,7 @@ class Header extends Component {
                             <Col lg="6" md="7">
                                 <div className="bar-right d-flex justify-content-end">
                                     <ul className="list-unstyled list-inline bar-social">
-                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-facebook-f"></i></a></li>
+                                        <li className="list-inline-item"><a href="https://www.facebook.com/Radar-Technical-Center-India-Pvt-Ltd-103828302059226" target="_blank" rel="noopener noreferrer" ><i className="fab fa-facebook-f"></i></a></li>
                                         <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-twitter"></i></a></li>
                                         <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-linkedin-in"></i></a></li>
                                         <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-instagram"></i></a></li>
