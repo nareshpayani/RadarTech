@@ -79,7 +79,7 @@ function CourseFilter() {
                                            
                                                 <div className="course-content">
                                                     {/* <Link to={process.env.PUBLIC_URL + data.courseLink}></Link> */}
-                                                    <h6 className="heading">{data.courseTitle}</h6>
+                                                    <Link to={process.env.PUBLIC_URL + data.courseLink}><h6 className="heading">{data.courseTitle}</h6></Link>
                                                     <p className="desc">{data.courseDesc}</p>
                                                     <div className="course-face d-flex justify-content-between">
                                                         <div className="duration">

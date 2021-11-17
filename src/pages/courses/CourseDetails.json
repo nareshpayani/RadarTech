@@ -1,0 +1,19 @@
+{
+
+    "dataList": [
+        {
+            
+            "id": "1",
+            "targetId": "cprogramming",
+            "imgUrl": "cprogramming.jpeg",
+            "authorImg": "man.png",
+            "authorName": "Naresh Payani",
+            "authorCourses": "13 Courses",
+            "price": "",
+            "courseTitle": "C Programming",
+            "courseDesc": "C Programming will increase career options. Become a better dev in other languages by learning C.",
+            "courseLink": "/course-details"
+        }
+        
+    ]
+}

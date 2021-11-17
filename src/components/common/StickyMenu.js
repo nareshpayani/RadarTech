@@ -51,7 +51,7 @@ function StickyMenu() {
                                                 </ul>
                                     </li>
                                     <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/gallery"}>Corporates</Link></li>
-                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/events"}>Placments</Link></li>
+                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/events"}>Placements</Link></li>
                                     {/* <li className="nav-item dropdown">
                                         <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">Pages <i className="las la-angle-down"></i></Link>
                                         <ul className="dropdown list-unstyled">

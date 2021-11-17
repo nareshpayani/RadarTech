@@ -56,7 +56,7 @@ function FooterTwo() {
                                 <ul className="list-unstyled">
                                     <li><i className="las la-map-marker"></i>Marathalli, Banglore 560037.</li>
                                     <li><i className="las la-envelope"></i>info@radar-tech.in</li>
-                                    <li><i className="las la-phone"></i>+91 9100401204</li>
+                                    <li><i className="las la-phone"></i>+91 70757 77601</li>
                                 </ul>
                             </div>
                         </Col>

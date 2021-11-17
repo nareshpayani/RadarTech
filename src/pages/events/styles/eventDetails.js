@@ -27,7 +27,7 @@ export const Styles = styled.div`
                             margin-right: 20px;
                             i {
                                 font-size : 20px;
-                                color : ${colors.green};
+                                color : ${colors.blue};
                                 vertical-align: top;
                             }
                             &:last-child {
@@ -58,7 +58,7 @@ export const Styles = styled.div`
                         &:before {
                             position: absolute;
                             content: "";
-                            background: ${colors.green};
+                            background: ${colors.blue};
                             width: 50px;
                             height: 2px;
                             bottom: 0;
@@ -102,18 +102,18 @@ export const Styles = styled.div`
                         li {
                             font-size: 14px;
                             color: ${colors.text3};
-                            line-height: 25px;
+                            line-height: 22px;
                             margin-bottom: 15px;
                             i {
                                 float: left;
-                                color: ${colors.green};
-                                border: 1px solid ${colors.border3};
-                                width: 35px;
-                                height: 35px;
+                                color: ${colors.blue};
+                                
+                                width: 25px;
+                                height: 25px;
                                 border-radius: 50%;
                                 text-align: center;
-                                padding-top: 9px;
-                                margin-top: 8px;
+                                padding-top: 4px;
+                               
                                 margin-right: 15px;
                             }
                             &:last-child {
@@ -134,7 +134,7 @@ export const Styles = styled.div`
                         &:before {
                             position: absolute;
                             content: "";
-                            background: ${colors.green};
+                            background: ${colors.blue};
                             width: 50px;
                             height: 2px;
                             bottom: 0;
@@ -183,7 +183,7 @@ export const Styles = styled.div`
                                             transition : all 0.2s ease;
 
                                             &:hover {
-                                                background-color: ${colors.green} !important;
+                                                background-color: ${colors.dark_blue} !important;
                                             }
                                         }
 
@@ -226,7 +226,7 @@ export const Styles = styled.div`
                                 color : ${colors.black2};
                                 font-weight : 500;
                                 &:hover {
-                                    color : ${colors.green};
+                                    color : ${colors.dark_blue};
                                     text-decoration : underline;
                                 }
 
@@ -358,5 +358,12 @@ export const Styles = styled.div`
                 padding: 20px 0 30px;
             }
         }
+
+
+
+
+        
     }
+
+    
 `;

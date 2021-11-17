@@ -18,7 +18,7 @@ class HeaderTwo extends Component {
                             <Col lg="7" md="9">
                                 <div className="bar-left">
                                     <ul className="list-unstyled list-inline">
-                                        <li className="list-inline-item"><i className="las la-phone"></i>+91 9100401204</li>
+                                        <li className="list-inline-item"><i className="las la-phone"></i>+91 70757 77601</li>
                                         <li className="list-inline-item"><i className="las la-envelope"></i>info@radar-tech.in</li>
                                         <li className="list-inline-item"><i className="las la-map-marker"></i>Marathalli, Banglore 560037.
                                     </li>

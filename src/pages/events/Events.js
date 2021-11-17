@@ -33,7 +33,7 @@ class Events extends Component {
                                                 <Row>
                                                     <Col xl="2" lg="3" md="0">
                                                         <div className="event-img">
-                                                            <Link><img src={process.env.PUBLIC_URL + `/assets/images/profile/${data.userImg}`} alt="user Profile" className="img-fluid" /></Link>
+                                                            <Link><img src={process.env.PUBLIC_URL + `/assets/images/${data.userImg}`} alt="user Profile" className="img-fluid" /></Link>
                                                         </div>
                                                     </Col>
                                                     <Col xl="10" lg="9" md="12">

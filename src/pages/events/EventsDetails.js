@@ -9,6 +9,8 @@ import PopularCourse from './../courses/components/PopularCourse';
 import CourseTag from './../courses/components/CourseTag';
 import FooterTwo from '../../components/FooterTwo';
 import { Styles } from './styles/eventDetails.js';
+import CourseTab from './CourseTab.js';
+import CourseModules from './CourseModules';
 
 class EventDetails extends Component {
     render() {
@@ -21,7 +23,7 @@ class EventDetails extends Component {
                     <HeaderTwo />
 
                     {/* Breadcroumb */}
-                    <BreadcrumbBox title="Event Details" />
+                    <BreadcrumbBox title="Course Details" />
 
                     {/* Event Details Area */}
                     <section className="event-details-area">
@@ -30,29 +32,40 @@ class EventDetails extends Component {
                                 <Col lg="9" md="8" sm="12">
                                     <div className="event-details-content">
                                         <div className="heading">
-                                            <h4>International students coming in Uk from Asian subcontinant for better education.</h4>
+                                            <h4>C and C++ TRAINING COURSE WITH JOB SUPPORT</h4>
                                         </div>
                                         <div className="event-icon">
                                             <ul className="list-unstyled list-inline">
-                                                <li className="list-inline-item"><i className="las la-calendar"></i> 19 February, 2021</li>
+                                                <li className="list-inline-item"><i className="las la-calendar"></i> 19 September, 2021</li>
                                                 <li className="list-inline-item"><i className="las la-clock"></i> 10:30am</li>
-                                                <li className="list-inline-item"><i className="las la-map-marker"></i> 795 South Park Avenue, CA</li>
-                                                <li className="list-inline-item"><i className="las la-copy"></i> Social Science</li>
+                                                <li className="list-inline-item"><i className="las la-map-marker"></i> Bangalore</li>
+                                                {/* <li className="list-inline-item"><i className="las la-copy"></i> Social Science</li> */}
                                             </ul>
                                         </div>
                                         <div className="event-details-banner">
-                                            <img src={process.env.PUBLIC_URL + `/assets/images/event-banner.jpg`} alt="" className="img-fluid" />
+                                            <img src={process.env.PUBLIC_URL + `/assets/images/cprogramming.jpeg`} alt="" className="img-fluid" />
                                         </div>
-                                        <div className="event-details-overview">
-                                            <h5>Event Overview</h5>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nesciunt harum facilis odit inventore molestias qui asperiores recusandae architecto mollitia provident ipsa unde, praesentium impedit enim voluptate ducimus, saepe autem. Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br /><br />Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda optio sequi suscipit et modi! Corporis obcaecati rerum et, explicabo inventore, aliquid, odit modi harum libero culpa distinctio. Nemo, aliquid dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio earum accusantium quam eius dignissimos quaerat voluptatem excepturi aliquid dolor ducimus. Illo porro maiores fuga dignissimos temporibus odio nulla nobis nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. <span><i className="las la-quote-right"></i>Nemo, aliquid dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio earum accusantium quam eius dignissimos quaerat voluptatem excepturi aliquid dolor ducimus. Optio earum accusantium quam eius dignissimos quaerat voluptatem excepturi aliquid dolor ducimus.</span>Assumenda optio sequi suscipit et modi! Corporis obcaecati rerum et, explicabo inventore, aliquid, odit modi harum libero culpa distinctio. Nemo, aliquid dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                        {/* <div className="event-details-overview">
+                                            <h5>GOAL</h5>
+                                            <p> Here we provide for the best C & C++ training institutes in Bangalore within more than C & C++ course key features like certification guidance, 100% job oriented training with expert trainers. C & C++ Training Classes schedule is providing in our service provider institutes in Bangalore. If this C & C++ course schedule doesn’t match please let us know. They will arrange appropriate timings based on your wish with affordable C & C++ Training fees in Bangalore.</p><br /><br />
+                                            <br /><br /> <span><i className="las la-quote-right"></i>Nemo, aliquid dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio earum accusantium quam eius dignissimos quaerat voluptatem excepturi aliquid dolor ducimus. Optio earum accusantium quam eius dignissimos quaerat voluptatem excepturi aliquid dolor ducimus.</span>
+                                            <h5>After completion of this course, you will learn:</h5>
                                             <ul className="list-unstyled">
-                                                <li><i className="fa fa-check"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum amet quo eius saepe et quis necessitatibus hic natus facere Quae impedit eligendi perspiciatis animi maxime ab minus corporis omnis similique excepturi.</li>
-                                                <li><i className="fa fa-check"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum amet quo eius saepe et quis necessitatibus hic natus facere Quae impedit eligendi perspiciatis animi maxime ab minus corporis omnis similique excepturi.</li>
-                                                <li><i className="fa fa-check"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum amet quo eius saepe et quis necessitatibus hic natus facere Quae impedit eligendi perspiciatis animi maxime ab minus corporis omnis similique excepturi.</li>
+                                                <li><i className="fa fa-check"></i> Principles of Object-Oriented Programming.</li>
+                                                <li><i className="fa fa-check"></i> Tokens, Expressions and Control Structures.</li>
+                                                <li><i className="fa fa-check"></i> Functions in C++.</li>
+                                                <li><i className="fa fa-check"></i> Classes and Objects.</li>
+                                                <li><i className="fa fa-check"></i> Constructors and Destructors.</li>
+                                                <li><i className="fa fa-check"></i> Operator overloading and type Conversions.</li>
+                                                <li><i className="fa fa-check"></i> Inheritance: Extending Classes.</li>
+                                                <li><i className="fa fa-check"></i> Pointers, Virtual Functions and Polymorphism.</li>
+                                                <li><i className="fa fa-check"></i> Managing Console 1/0 Operations.</li>
+                                                <li><i className="fa fa-check"></i> Working with Files.</li>
+                                                <li><i className="fa fa-check"></i> New Features of ANSI C and C++ Standard.</li>
+                                                <li><i className="fa fa-check"></i> Object-Oriented Systems Development.</li>
                                             </ul>
-                                        </div>
-                                        <div className="event-details-speaker">
+                                        </div> */}
+                                        {/* <div className="event-details-speaker">
                                             <h5>Event Speakers</h5>
                                             <Row>
                                                 {
@@ -73,8 +86,9 @@ class EventDetails extends Component {
                                                     ))
                                                 }
                                             </Row>
-                                        </div>
-
+                                        </div> */}
+                                        <CourseTab/>   
+                                        <CourseModules/>
                                         <div className="pre-nxt-event">
                                             <Row>
                                                 <Col md="6">
@@ -117,31 +131,31 @@ class EventDetails extends Component {
                                                         </Timer>
                                                     </div>
                                                     <ul className="list-unstyled event-info-list">
-                                                        <li>Start Date: <span>Aug 21, 2020</span></li>
-                                                        <li>Time: <span>08:30am</span></li>
-                                                        <li>Seat: <span>220</span></li>
-                                                        <li>Place: <span>Ontario,CA</span></li>
-                                                        <li>Organizer: <span>David Young</span></li>
-                                                        <li>Phone: <span>+1 (396) 486 4709</span></li>
-                                                        <li>Email: <span>email@me.com</span></li>
-                                                        <li>Website: <span>www.mydomain.com</span></li>
+                                                        <li>Start Date: <span>Sep 21, 2021</span></li>
+                                                        <li>Time: <span>10:30am</span></li>
+                                                        <li>Seat: <span>50</span></li>
+                                                        <li>Place: <span>Bengalore, KA</span></li>
+                                                        <li>Organizer: <span>Naresh Payani</span></li>
+                                                        <li>Phone: <span>+91 9481110011</span></li>
+                                                        <li>Email: <span>info@radar-tech.in</span></li>
+                                                        <li>Website: <span>www.radar-tech.in</span></li>
                                                     </ul>
-                                                    <button type="button" className="buy-btn">Buy Ticket</button>
+                                                    <Link to={process.env.PUBLIC_URL + "/registration"}> <button type="button" className="buy-btn">Register</button></Link>
                                                 </div>
                                             </Col>
                                             <Col md="12">
                                                 <PopularCourse />
                                             </Col>
-                                            <Col md="12">
+                                            {/* <Col md="12">
                                                 <CourseTag />
-                                            </Col>
+                                            </Col> */}
                                         </Row>
                                     </div>
                                 </Col>
                             </Row>
                         </Container>
                     </section>
-
+                                
                     {/* Footer 2 */}
                     <FooterTwo />
 

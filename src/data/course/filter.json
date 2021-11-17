@@ -82,8 +82,8 @@
             "authorName": "Jim Hunt",
             "authorCourses": "09 Courses",
             "price": "$15",
-            "courseTitle": "Networking",
-            "courseDesc": "The Complete Networking Fundamentals Course.start Learn about networking and start your journey to Cisco 200-301 Certification.",
+            "courseTitle": "Networking Protocols",
+            "courseDesc": "The Complete Networking Protocols Fundamentals Course.start Learn about networking and start your journey to Cisco 200-301 Certification.",
             "courseLink": "/course-details"
         },
         {

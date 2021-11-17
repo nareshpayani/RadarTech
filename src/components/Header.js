@@ -73,7 +73,7 @@ class Header extends Component {
                                         </div>
                                         <div className="box-content">
                                             <p>Call Us Now</p>
-                                            <span>+91 9100401204</span>
+                                            <span>+91 70757 77601</span>
                                         </div>
                                     </div>
                                     {/* <div className="emcontact-box d-flex">

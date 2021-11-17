@@ -30,7 +30,7 @@
         "authorCourses": "26 Courses",
         "price": "$19",
         "courseTitle": "Micro Controllers",
-        "courseDesc": "Learn 8051 micro-controller programming in detail using Embedded C and assembly language.",
+        "courseDesc": "Learn TMS320F28335, LPC2129 micro-controller programming in detail using Embedded C and assembly language.",
         "courseLink": "/course-details"
     },
     {
@@ -74,8 +74,8 @@
         "authorName": "Jim Hunt",
         "authorCourses": "09 Courses",
         "price": "$15",
-        "courseTitle": "Networking",
-        "courseDesc": "The Complete Networking Fundamentals Course.start Learn about networking and start your journey to Cisco 200-301 Certification.",
+        "courseTitle": "Networking Protocols",
+        "courseDesc": "The Complete Networking protocols Fundamentals Course. start Learn about networking and start your journey to Cisco 200-301 Certification.",
         "courseLink": "/course-details"
     },
     {

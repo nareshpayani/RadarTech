@@ -500,7 +500,7 @@ export const Styles = styled.div`
                             &:before {
                                 position: absolute;
                                 content: "";
-                                background: ${colors.green};
+                                background: ${colors.blue};
                                 width: 50px;
                                 height: 2px;
                                 bottom: 0;
@@ -536,7 +536,7 @@ export const Styles = styled.div`
                                     margin-bottom : 10px;
                                     i {
                                         font-size : 20px;
-                                        color: ${colors.green};
+                                        color: ${colors.blue};
                                         float: left;
                                         height: 40px;
                                         line-height: 27px;
@@ -559,7 +559,7 @@ export const Styles = styled.div`
                                     margin-bottom: 15px;
                                     i {
                                         float: left;
-                                        color: ${colors.green};
+                                        color: ${colors.blue};
                                         border: 1px solid ${colors.border3};
                                         width: 35px;
                                         height: 35px;
@@ -619,17 +619,7 @@ export const Styles = styled.div`
                                             width    : 34px;
                                         }
 
-                                        &:hover {
-                                            background-color: ${colors.green} !important;
-
-                                            &:before {
-                                                border-bottom-color: ${colors.green} !important;
-                                            }
-
-                                            &:after {
-                                                border-top-color: ${colors.green} !important;
-                                            }
-                                        }
+                                      
                                     }
 
                                     &:nth-child(1) {
@@ -717,7 +707,7 @@ export const Styles = styled.div`
                                 &:before {
                                     position: absolute;
                                     content: "";
-                                    background: ${colors.green};
+                                    background: ${colors.blue};
                                     width: 50px;
                                     height: 2px;
                                     bottom: 0;
@@ -748,7 +738,7 @@ export const Styles = styled.div`
                                 &:before {
                                     position: absolute;
                                     content: "";
-                                    background: ${colors.green};
+                                    background: ${colors.blue};
                                     width: 50px;
                                     height: 2px;
                                     bottom: 0;
@@ -794,13 +784,13 @@ export const Styles = styled.div`
                                                 color: ${colors.text3};
                                                 margin-right: 20px;
                                                 i {
-                                                    color: ${colors.green};
-                                                    border: 1px solid ${colors.green};
+                                                    color: ${colors.blue};
+                                                    border: 1px solid ${colors.blue};
                                                     font-size: 22px;
                                                     width: 30px;
                                                     height: 30px;
                                                     border-radius: 50%;
-                                                    padding-left: 3px;
+                                                  
                                                     text-align: center;
                                                     line-height: 29px;
                                                     vertical-align: middle;
@@ -848,7 +838,7 @@ export const Styles = styled.div`
                             &:before {
                                 position: absolute;
                                 content: "";
-                                background: ${colors.green};
+                                background: ${colors.blue};
                                 width: 50px;
                                 height: 2px;
                                 bottom: 0;
@@ -945,14 +935,14 @@ export const Styles = styled.div`
                                                         }
 
                                                         &:hover {
-                                                            background-color: ${colors.green} !important;
+                                                            background-color: ${colors.dark_blue} !important;
 
                                                             &:before {
-                                                                border-bottom-color: ${colors.green} !important;
+                                                                border-bottom-color: ${colors.blue} !important;
                                                             }
 
                                                             &:after {
-                                                                border-top-color: ${colors.green} !important;
+                                                                border-top-color: ${colors.blue} !important;
                                                             }
                                                         }
                                                     }
@@ -1049,7 +1039,7 @@ export const Styles = styled.div`
                                 &:before {
                                     position: absolute;
                                     content: "";
-                                    background: ${colors.green};
+                                    background: ${colors.blue};
                                     width: 50px;
                                     height: 2px;
                                     bottom: 0;
@@ -1107,7 +1097,7 @@ export const Styles = styled.div`
                                         .reply-btn {
                                             button {
                                                 font-size : 14px;
-                                                color: ${colors.green};
+                                                color: ${colors.blue};
                                                 background : transparent;
                                                 border : 1px solid ${colors.border3};
                                                 font-weight: 500;
@@ -1120,8 +1110,8 @@ export const Styles = styled.div`
                                                 }
                                                 &:hover {
                                                     color : #ffffff;
-                                                    background : ${colors.gr_bg};
-                                                    border-color : ${colors.green};
+                                                    background : ${colors.blue};
+                                                    border-color : ${colors.blue};
                                                 }
                                             }
                                         }
@@ -1152,7 +1142,7 @@ export const Styles = styled.div`
                                 &:before {
                                     position: absolute;
                                     content: "";
-                                    background: ${colors.green};
+                                    background: ${colors.blue};
                                     width: 50px;
                                     height: 2px;
                                     bottom: 0;
@@ -1187,7 +1177,7 @@ export const Styles = styled.div`
                     &:before {
                         position: absolute;
                         content: "";
-                        background: ${colors.green};
+                        background: ${colors.blue};
                         width: 50px;
                         height: 2px;
                         bottom: 0;
@@ -1209,7 +1199,7 @@ export const Styles = styled.div`
                         font-weight: 500;
                         i {
                             font-size : 20px;
-                            color: ${colors.green};
+                            color: ${colors.blue};
                             vertical-align: top;
                             margin-right : 2px;
                         }
