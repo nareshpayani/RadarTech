@@ -33,7 +33,7 @@ class CourseItemList extends Component {
                                 </div>
                                 <div className="course-content">
                                     {/* {process.env.PUBLIC_URL + data.courseLink} */}
-                                    <h6 className="heading"><Link to="#">{data.courseTitle}</Link></h6>
+                                    <h6 className="heading"><Link to={`/course-details/${data.id}`}>{data.courseTitle}</Link></h6>
                                     <div className="rating">
                                         <ul className="list-unstyled list-inline">
                                             <li className="list-inline-item"><i className="las la-star"></i></li>

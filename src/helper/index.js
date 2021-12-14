@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
-export default function ScrollToTop() {
+export function ScrollToTop() {
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -9,4 +9,8 @@ export default function ScrollToTop() {
   }, [pathname]);
 
   return null;
+}
+
+export function isFloat (n){
+  return Number(n) === n && n % 1 !== 0;
 }

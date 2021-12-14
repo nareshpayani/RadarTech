@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import ScrollToTop from './helper/ScrollToTop';
+import { ScrollToTop } from './helper';
 import { GlobalStyle } from "./components/common/styles/global.js";
 import HomeOne from './HomeOne';
 import HomeTwo from './HomeTwo';
@@ -37,7 +37,7 @@ function App() {
                 <Route path={`${process.env.PUBLIC_URL + "/about"}`} component={About} />
                 <Route path={`${process.env.PUBLIC_URL + "/course-grid"}`} component={CourseGrid} />
                 <Route path={`${process.env.PUBLIC_URL + "/course-list"}`} component={CourseList} />
-                <Route path={`${process.env.PUBLIC_URL + "/course-details"}`} component={CourseDetails} />
+                <Route path={`${process.env.PUBLIC_URL + "/course-details/:id"}`} component={CourseDetails} />
                 <Route path={`${process.env.PUBLIC_URL + "/instructor"}`} component={Instructor} />
                 <Route path={`${process.env.PUBLIC_URL + "/instructor-details"}`} component={InstructorDetails} />
                 <Route path={`${process.env.PUBLIC_URL + "/gallery"}`} component={Gallery} />
