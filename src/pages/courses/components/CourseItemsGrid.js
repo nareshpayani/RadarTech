@@ -31,7 +31,7 @@ class CourseItemGrid extends Component {
                                
                                 <div className="course-content">
                                     {/* {process.env.PUBLIC_URL + data.courseLink} */}
-                                    <h6 className="heading"><Link to="#">{data.courseTitle}</Link></h6>
+                                    <h6 className="heading"><Link to={`/course-details/${data.id}`}>{data.courseTitle}</Link></h6>
                                     <p className="desc">{data.courseDesc}</p>
                                     <div className="course-face d-flex justify-content-between">
                                         <div className="duration">

@@ -3,6 +3,7 @@ import Datas from '../data/course/filter.json';
 import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Styles } from "./styles/courseFilter.js";
+import { isFloat } from '../helper'
 
 function CourseFilter() {
     useEffect(() => {
@@ -79,25 +80,25 @@ function CourseFilter() {
                                            
                                                 <div className="course-content">
                                                     {/* <Link to={process.env.PUBLIC_URL + data.courseLink}></Link> */}
-                                                    <Link to={process.env.PUBLIC_URL + data.courseLink}><h6 className="heading">{data.courseTitle}</h6></Link>
-                                                    <p className="desc">{data.courseDesc}</p>
+                                                    <Link to={process.env.PUBLIC_URL + "/course-details/" + data.id}><h6 className="heading">{data.courseTitle}</h6></Link>
+                                                    <p className="desc">{data.shortDesc}</p>
                                                     <div className="course-face d-flex justify-content-between">
                                                         <div className="duration">
-                                                            <p><i className="las la-clock"></i>120</p>
+                                                            <p><i className="las la-clock"></i>{data.courseDuration}</p>
                                                         </div>
                                                         <div className="rating">
                                                             <ul className="list-unstyled list-inline">
-                                                                <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                                <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                                <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                                <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                                <li className="list-inline-item"><i className="las la-star-half-alt"></i>
-                                                                </li>
-                                                                <li className="list-inline-item">(4.5)</li>
+                                                                {
+                                                                    [...Array(parseInt(data.rating || 0 ))].map((data, i) => (<li key={i} className="list-inline-item"><i className="las la-star"></i></li>))
+                                                                }
+                                                                {
+                                                                    isFloat(data.rating) ? <li className="list-inline-item"><i className="las la-star-half-alt"></i></li> : ''
+                                                                }
+                                                                <li className="list-inline-item">({data.rating})</li>
                                                             </ul>
                                                         </div>
                                                         <div className="student">
-                                                            <p><i className="las la-chair"></i>60</p>
+                                                            <p><i className="las la-chair"></i>{data.enrolled}</p>
                                                         </div>
                                                     </div>
                                                 </div>
