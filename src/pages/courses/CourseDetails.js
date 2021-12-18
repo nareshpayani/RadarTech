@@ -12,10 +12,15 @@ import Datas from '../../data/course/filter.json';
 import { useParams } from "react-router-dom";
 import { isFloat } from '../../helper';
 import moment from 'moment'
+import axios from 'axios';
+
+// const URL = process.env.PUBLIC_URL 
+const URL = 'http://localhost:5000'
 
 function CourseDetails() {
     let { id } = useParams();
     const [course, setCourse] = useState({});
+    const [reviews, setReviews] = useState([]);
     
     useEffect(() => {
         const result = Datas.dataList.filter(course => course.id === id)
@@ -24,6 +29,7 @@ function CourseDetails() {
 
     useEffect(() => {
         setStyle()
+        course.id && getReviews(course.id)
     }, [course]);
 
     const setStyle = () => {
@@ -50,6 +56,17 @@ function CourseDetails() {
 
     const totalLectures = (parts) => {
         return parts.reduce((a,b) => a + b.lectures.length, 0)
+    }
+    
+    function getReviews (courseId) {
+        axios.get(URL+'/review/'+courseId)
+        .then(function (response) {
+            console.log(response.data)
+            setReviews(response.data)
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
     }
     return (
         <div className="main-wrapper course-details-page" >
@@ -226,39 +243,42 @@ function CourseDetails() {
                                                             <Col md="12">
                                                                 <div className="review-comments">
                                                                     <h5>Course Reviews</h5>
-                                                                    <div className="comment-box d-flex">
-                                                                        <div className="comment-image">
-                                                                            <img src={process.env.PUBLIC_URL + `/assets/images/user2.png`} alt="" />
-                                                                        </div>
-                                                                        <div className="comment-content">
-                                                                            <div className="content-title d-flex justify-content-between">
-                                                                                <div className="comment-writer">
-                                                                                    <h6>Naveen Kumar</h6>
-                                                                                    <p>Mar 26, 2020 | 06:30pm</p>
-                                                                                    <ul className="list-unstyled list-inline">
-                                                                                        <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                                                        <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                                                        <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                                                        <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                                                        <li className="list-inline-item"><i className="las la-star-half-alt"></i></li>
-                                                                                        <li className="list-inline-item">(4.5)</li>
-                                                                                    </ul>
+                                                                    {
+                                                                        reviews.map(review => {
+                                                                            return <div className="comment-box d-flex" key={review.id}>
+                                                                                <div className="comment-image">
+                                                                                    <img src={process.env.PUBLIC_URL + `/assets/images/user2.png`} alt="" />
                                                                                 </div>
-                                                                                <div className="reply-btn">
-                                                                                    <button type="button"><i className="las la-reply-all"></i> Reply</button>
+                                                                                <div className="comment-content">
+                                                                                    <div className="content-title d-flex justify-content-between">
+                                                                                        <div className="comment-writer">
+                                                                                            <h6>{review.user_name}</h6>
+                                                                                            <p>{moment(review.review_date).format('MMM DD, YYYY | hh:mma')}</p>
+                                                                                            <ul className="list-unstyled list-inline">
+                                                                                                {
+                                                                                                    [...Array(parseInt(review.stars || 0 ))].map((data, i) => (<li key={i} className="list-inline-item"><i className="las la-star"></i></li>))
+                                                                                                }
+                                                                                                {
+                                                                                                    isFloat(review.stars) ? <li className="list-inline-item"><i className="las la-star-half-alt"></i></li> : ''
+                                                                                                }
+                                                                                                <li className="list-inline-item">({review.stars})</li>
+                                                                                            </ul>
+                                                                                        </div>
+                                                                                        <div className="reply-btn">
+                                                                                            <button type="button"><i className="las la-reply-all"></i> Reply</button>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div className="comment-desc">
+                                                                                        <p>{review.review_text}</p>
+                                                                                    </div>
                                                                                 </div>
                                                                             </div>
-                                                                            <div className="comment-desc">
-                                                                                <p>Thanks for the great training and support. I don’t know anything about coding and syntax while joining here for the C C++ course. My trainer really supported and helped me slowly as per my understanding level. I’m pretty good at coding nowadays. Thank you sir.</p>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    
-                                                                
+                                                                        }) 
+                                                                    }
                                                                 </div>
                                                                 <div className="review-form">
                                                                     <h5>Submit Review</h5>
-                                                                    <ReviewForm />
+                                                                    <ReviewForm courseId={id} getReviews={getReviews}/>
                                                                 </div>
                                                             </Col>
                                                         </Row>
