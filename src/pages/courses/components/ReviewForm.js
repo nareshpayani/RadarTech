@@ -1,13 +1,21 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Row, Col } from 'react-bootstrap';
 import { Styles } from '../styles/reviewForm.js';
+import axios from 'axios';
+import { toast } from 'react-toastify';
 
-function ReviewForm() {
+// const URL = process.env.PUBLIC_URL 
+const URL = 'http://localhost:5000'
+
+function ReviewForm({courseId, getReviews}) {
+    const [stars, setStars] = useState(0)    
+    let form, desc,  name, email 
+
     useEffect(() => {
-        const form = document.getElementById("form6");
-        const desc = document.getElementById("desc6");
-        const name = document.getElementById("name6");
-        const email = document.getElementById("email6");
+        form = document.getElementById("form6");
+        desc = document.getElementById("desc6");
+        name = document.getElementById("name6");
+        email = document.getElementById("email6");
 
         form.addEventListener("submit", formSubmit);
 
@@ -37,40 +45,80 @@ function ReviewForm() {
             } else {
                 setSuccess(email);
             }
+            
+            if (descValue && emailValue && nameValue) saveReview(nameValue, emailValue, descValue)
         }
 
-        function setError(input, message) {
-            const formControl = input.parentElement;
-            const errorMsg = formControl.querySelector(".input-msg6");
-            formControl.className = "form-control error";
-            errorMsg.innerText = message;
-        }
+    }, []);
+    
+    function saveReview (nameValue, emailValue, descValue) {
+        axios.post(URL+'/review', {
+            name: nameValue,
+            email: emailValue,
+            text: descValue,
+            stars: stars,
+            courseId
+        })
+        .then(function (response) {
+            if(response.data) {
+                notify("Review submitted successfully!")
+                getReviews(courseId)
+            }
+            reset(name)
+            reset(email)
+            reset(desc)
+            form.reset()
+        })
+        .catch(function (error) {
+            console.log(error);
+        });
+    }
 
-        function setSuccess(input) {
-            const formControl = input.parentElement;
-            formControl.className = "form-control success";
-        }
+    function setError(input, message) {
+        const formControl = input.parentElement;
+        const errorMsg = formControl.querySelector(".input-msg6");
+        formControl.className = "form-control error";
+        errorMsg.innerText = message;
+    }
 
-        function isEmail(email) {
-            return /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(email);
-        }
-    });
+    function setSuccess(input) {
+        const formControl = input.parentElement;
+        formControl.className = "form-control success";
+    }
 
+    function isEmail(email) {
+        return /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(email);
+    }
+
+    function reset(input) {
+        const formControl = input.parentElement;
+        formControl.className = "form-control";
+    }
+
+    function notify (message) {
+        toast.success(message, {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true
+        });    
+    }
+    console.log(stars, 'ehrehrherhe')
     return (
         <Styles>
             <form id="form6" className="form review-comment-form">
                 <Row>
                     <Col md="12">
-                        <div className="star-rating">
-                            <input type="radio" name="rate" id="rate-5" />
+                        <div className="star-rating" onChange={(event) => { setStars(event.target.value)} }>
+                            <input type="radio" name="rate" id="rate-5" value="5"/>
                             <label htmlFor="rate-5" className="las la-star"></label>
-                            <input type="radio" name="rate" id="rate-4" />
+                            <input type="radio" name="rate" id="rate-4" value="4"/>
                             <label htmlFor="rate-4" className="las la-star"></label>
-                            <input type="radio" name="rate" id="rate-3" />
+                            <input type="radio" name="rate" id="rate-3" value="3"/>
                             <label htmlFor="rate-3" className="las la-star"></label>
-                            <input type="radio" name="rate" id="rate-2" />
+                            <input type="radio" name="rate" id="rate-2" value="2"/>
                             <label htmlFor="rate-2" className="las la-star"></label>
-                            <input type="radio" name="rate" id="rate-1" />
+                            <input type="radio" name="rate" id="rate-1" value="1"/>
                             <label htmlFor="rate-1" className="las la-star"></label>
                         </div>
                     </Col>
