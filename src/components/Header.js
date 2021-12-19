@@ -148,6 +148,7 @@ class Header extends Component {
                                             </li> */}
                                             <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/about"}>About Us</Link></li>
                                             <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/contact"}>Contact</Link></li>
+                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/feedback"}>Feedback</Link></li>
                                             {/* <li className="nav-item dropdown">
                                                 <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">Event <i className="las la-angle-down"></i></Link>
                                                 <ul className="dropdown list-unstyled">

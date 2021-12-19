@@ -15,6 +15,7 @@ import Events from './pages/events/Events';
 import EventDetails from './pages/events/EventsDetails';
 import Login from './pages/account/Login';
 import Register from './pages/account/Register';
+import Feeedback from './pages/feedback/Feedback';
 import Contact from './pages/contact/Contact';
 import Faq from './pages/faq/Faq';
 import PageNotFound from './pages/404/PageNotFound';
@@ -25,6 +26,8 @@ import BlogDetails from './pages/blog/BlogDetails';
 import Product from './pages/shop/Products';
 import ProductDetails from './pages/shop/ProductDetails';
 import Cart from './pages/shop/Cart';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
     return (
@@ -45,6 +48,7 @@ function App() {
                 <Route path={`${process.env.PUBLIC_URL + "/event-details"}`} component={EventDetails} />
                 <Route path={`${process.env.PUBLIC_URL + "/login"}`} component={Login} />
                 <Route path={`${process.env.PUBLIC_URL + "/registration"}`} component={Register} />
+                <Route path={`${process.env.PUBLIC_URL + "/feedback"}`} component={Feeedback} />
                 <Route path={`${process.env.PUBLIC_URL + "/contact"}`} component={Contact} />
                 <Route path={`${process.env.PUBLIC_URL + "/faq"}`} component={Faq} />
                 <Route path={`${process.env.PUBLIC_URL + "/404"}`} component={PageNotFound} />
@@ -56,6 +60,7 @@ function App() {
                 <Route path={`${process.env.PUBLIC_URL + "/product-details"}`} component={ProductDetails} />
                 <Route path={`${process.env.PUBLIC_URL + "/cart"}`} component={Cart} />
             </Switch>
+            <ToastContainer />
         </Router>
     )
 }
