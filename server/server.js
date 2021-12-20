@@ -65,6 +65,13 @@ app.get('/feedback', (req, res) => {
    });
 })
 
+app.get('/feedbackAll', (req, res) => {
+   connection.query('SELECT * FROM Feedback', (error, results) => {
+      if (error) return res.json({ error: error });
+      return res.send(results).status(200)
+   });
+})
+
 app.post('/feedback', async (req, res) => {
    const feedback = req.body
    let picture,uploadPath;
