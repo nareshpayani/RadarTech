@@ -19,6 +19,8 @@ function Register() {
         const email = document.getElementById("feedback_email");
         const address = document.getElementById("feedback_address");
         const text = document.getElementById("feedback_text");
+        const salary = document.getElementById("feedback_salary");
+        const picture = document.getElementById("feedback_picture");
 
         form.addEventListener("submit", formSubmit);
 
@@ -30,6 +32,8 @@ function Register() {
             const emailValue = email.value.trim();
             const addressValue = address.value.trim();
             const textValue = text.value.trim();
+            const salaryValue = salary.value.trim();
+            const pictureValue = picture.files[0];
 
             if (nameValue === "") {
                 setError(name, "Name can't be blank");
@@ -51,6 +55,12 @@ function Register() {
                 setSuccess(email);
             }
 
+            if (salaryValue === "") {
+                setError(salary, "Company can't be blank");
+            } else {
+                setSuccess(salary);
+            }
+
             if (addressValue === "") {
                 setError(address, "Address can't be blank");
             } else {
@@ -64,7 +74,7 @@ function Register() {
             }
 
             if (textValue && addressValue && companyValue && emailValue && nameValue) 
-                saveFeedback(textValue ,addressValue ,companyValue ,emailValue, nameValue)
+                saveFeedback(textValue ,addressValue ,companyValue ,emailValue, nameValue, salaryValue, pictureValue)
 
         }
 
@@ -88,15 +98,18 @@ function Register() {
         function isEmail(email) {
             return /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(email);
         }
-        function saveFeedback (textValue ,addressValue ,companyValue ,emailValue, nameValue) {
-            axios.post(URL+'/feedback', {
-                name: nameValue,
-                email: emailValue,
-                text: textValue,
-                company: companyValue,
-                address: addressValue
-            })
-            .then(function (response) {
+        function saveFeedback (textValue ,addressValue ,companyValue ,emailValue, nameValue, salaryValue, pictureValue) {
+            const formData = new FormData();
+            formData.append('name',nameValue);
+            formData.append('email',emailValue);
+            formData.append('text',textValue);
+            formData.append('company',companyValue);
+            formData.append('address',addressValue);
+            formData.append('salary',salaryValue);
+            formData.append('picture',pictureValue);
+
+            axios.post(URL+'/feedback', formData)
+            .then((response) => {
                 if(response.data) {
                     notify("Feedback submitted successfully!")
                 }
@@ -105,6 +118,7 @@ function Register() {
                 reset(address)
                 reset(company)
                 reset(text)
+                reset(salary)
                 form.reset()
             })
             .catch(function (error) {
@@ -160,6 +174,11 @@ function Register() {
                                             <span className="feedback_input-msg"></span>
                                         </p>
                                         <p className="form-control">
+                                            <label htmlFor="feedback_salary">Salary</label>
+                                            <input type="number" placeholder="Salary" id="feedback_salary" />
+                                            <span className="feedback_input-msg"></span>
+                                        </p>
+                                        <p className="form-control">
                                             <label htmlFor="feedback_address">Address</label>
                                             <input type="text" placeholder="address" id="feedback_address" />
                                             <span className="feedback_input-msg"></span>
@@ -168,6 +187,10 @@ function Register() {
                                             <label htmlFor="feedback_text">Feedback</label>
                                             <textarea type="text" placeholder="feedback/suggestions" id="feedback_text" />
                                             <span className="feedback_input-msg"></span>
+                                        </p>
+                                        <p className='file-container'>
+                                            <label htmlFor="feedback_picture">Upload Picture</label>
+                                            <input type="file" className="form-control-file" id="feedback_picture" />
                                         </p>
                                         <button>Submit</button>
                                     </form>

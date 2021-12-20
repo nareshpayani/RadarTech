@@ -61,7 +61,6 @@ function CourseDetails() {
     function getReviews (courseId) {
         axios.get(URL+'/review/'+courseId)
         .then(function (response) {
-            console.log(response.data)
             setReviews(response.data)
         })
         .catch(function (error) {
@@ -247,7 +246,7 @@ function CourseDetails() {
                                                                         reviews.map(review => {
                                                                             return <div className="comment-box d-flex" key={review.id}>
                                                                                 <div className="comment-image">
-                                                                                    <img src={process.env.PUBLIC_URL + `/assets/images/user2.png`} alt="" />
+                                                                                    <img src={process.env.PUBLIC_URL + '/assets/uploads/' + ( review.imgUrl || `user.png2`)} alt="" />
                                                                                 </div>
                                                                                 <div className="comment-content">
                                                                                     <div className="content-title d-flex justify-content-between">
