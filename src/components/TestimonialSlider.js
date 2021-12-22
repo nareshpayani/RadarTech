@@ -5,7 +5,6 @@ import Swiper from 'react-id-swiper';
 import { Styles } from "./styles/testimonialSlider.js";
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import { toast } from 'react-toastify';
 
 // const URL = process.env.PUBLIC_URL 
 const URL = 'http://localhost:5000'
@@ -26,7 +25,6 @@ class TestimonialSlider extends Component {
     getReviews () {
         axios.get(URL+'/feedback')
         .then((response) => {
-            console.log(response.data, 'here')
             this.setState({ testimonials: response.data }) 
         })
         .catch(function (error) {
@@ -35,7 +33,6 @@ class TestimonialSlider extends Component {
     }
 
     render() {
-        console.log(this.state.testimonials, 'hehre her')
         const settings = {
             slidesPerView: 2,
             loop: true,
@@ -87,10 +84,10 @@ class TestimonialSlider extends Component {
                                                     <p>{data.feedback_text}</p>
                                                 </div>
                                                 <div className="writer">
-                                                    <img src={process.env.PUBLIC_URL + `/assets/images/venkat.png`} className="slider-image" alt={'venkat.png'} />
+                                                    <img src={process.env.PUBLIC_URL + `/assets/uploads/` + (data.imgUrl || `user2.png`)} className="slider-image" alt={'venkat.png'} />
                                                     <h6>{data.user_name}</h6>
                                                     <p>{data.address}</p>
-                                                    <p>{"4 Lacs per annum"}</p>
+                                                    <p>{data.salary+" Lacs per annum"}</p>
                                                 </div>
                                             </div>
                                         ))

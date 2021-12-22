@@ -186,6 +186,13 @@ export const Styles = styled.div`
                             height     : 40px;
                         }
                     }
+                    .file-container {
+                        width    : 100%;
+                        margin-bottom: 10px;
+                        font-size : 15px;
+                        color : ${colors.text1};
+                        font-weight : 500;
+                    }
                 }
 
                 .have_account-btn {

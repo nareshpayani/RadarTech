@@ -143,5 +143,10 @@ export const Styles = styled.div`
                 background: ${colors.gr_bg2};
             }
         }
+        .file-container {
+            width    : 200px;
+            margin-left: auto;
+            margin-bottom: 10px;
+        }
     }
 `;
