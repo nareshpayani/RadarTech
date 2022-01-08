@@ -82,14 +82,14 @@ class HeaderTwo extends Component {
                                         <li className="nav-item dropdown">
                                             <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">Courses <i className="las la-angle-down"></i></Link>
                                             <ul className="dropdown list-unstyled">
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-grid"}>Embedded Course</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-grid"}>C Programming</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-grid/emb"}>Embedded Course</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-grid/cprogramming"}>C Programming</Link></li>
                                                     <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-grid"}>Data Structures</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-list"}>Micro Controllers</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-grid/micro"}>Micro Controllers</Link></li>
                                                     <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-grid"}>Networking Concepts</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-grid"}>Python Programming</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-list"}>Operating System</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/ccourse-grid"}>Hardware</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-grid/python"}>Python Programming</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-grid/"}>Operating System</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/ccourse-grid/hardware"}>Hardware</Link></li>
                                                 </ul>
                                         </li>
                                         <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/gallery"}>Corporates</Link></li>
