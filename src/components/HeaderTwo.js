@@ -115,7 +115,6 @@ class HeaderTwo extends Component {
                                                 <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/instructor-details"}>Instructor Details</Link></li>
                                             </ul>
                                         </li> */}
-
                                         <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/about"}>About Us</Link></li>
                                         <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/contact"}>Contact</Link></li>
                                         {/* <li className="nav-item dropdown">
@@ -141,6 +140,7 @@ class HeaderTwo extends Component {
                                                 <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/cart"}>Cart</Link></li>
                                             </ul>
                                         </li> */}
+                                        <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/gallery"}>Gallery</Link></li>
                                     </ul>
                                     <div className="search-box">
                                         <Search />

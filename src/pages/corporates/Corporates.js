@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Datas from '../../data/gallery/gallery-page.json';
+import Datas from '../../data/corporates/corporates-page.json';
 import { Container, Row, Col } from 'react-bootstrap';
 import ModalImage from "react-modal-image";
 import HeaderTwo from '../../components/HeaderTwo';
@@ -20,7 +20,7 @@ class Gallery extends Component {
                     <HeaderTwo />
 
                     {/* Breadcroumb */}
-                    <BreadcrumbBox title="Gallery" />
+                    <BreadcrumbBox title="corporates" />
 
                     {/* Gallery Area */}
                     <section className="gallery-page-area">
@@ -30,7 +30,7 @@ class Gallery extends Component {
                                     Datas.map((data, i) => (
                                         <Col lg="3" sm="6" key={i}>
                                             <div className="gallery-box">
-                                                <ModalImage small={process.env.PUBLIC_URL + `/assets/images/gallery/${data.galleryImage}`} large={process.env.PUBLIC_URL + `/assets/images/gallery/${data.galleryImage}`} alt="" />
+                                                <ModalImage small={process.env.PUBLIC_URL + `/assets/images/mnc/${data.galleryImage}`} large={process.env.PUBLIC_URL + `/assets/images/mnc/${data.galleryImage}`} alt="" />
                                             </div>
                                         </Col>
                                     ))

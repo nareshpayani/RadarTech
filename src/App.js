@@ -10,6 +10,7 @@ import CourseList from './pages/courses/CourseList';
 import CourseDetails from './pages/courses/CourseDetails';
 import Instructor from './pages/instructor/Instructors';
 import InstructorDetails from './pages/instructor/InstructorDetails';
+import Corporates from './pages/corporates/Corporates';
 import Gallery from './pages/gallery/Gallery';
 import Events from './pages/events/Events';
 import EventDetails from './pages/events/EventsDetails';
@@ -41,6 +42,7 @@ function App() {
                 <Route path={`${process.env.PUBLIC_URL + "/course-details/:id"}`} component={CourseDetails} />
                 <Route path={`${process.env.PUBLIC_URL + "/instructor"}`} component={Instructor} />
                 <Route path={`${process.env.PUBLIC_URL + "/instructor-details"}`} component={InstructorDetails} />
+                <Route path={`${process.env.PUBLIC_URL + "/corporates"}`} component={Corporates} />
                 <Route path={`${process.env.PUBLIC_URL + "/gallery"}`} component={Gallery} />
                 <Route path={`${process.env.PUBLIC_URL + "/events"}`} component={Events} />
                 <Route path={`${process.env.PUBLIC_URL + "/event-details"}`} component={EventDetails} />
